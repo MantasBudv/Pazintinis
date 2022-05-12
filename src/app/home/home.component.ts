@@ -1,4 +1,4 @@
-import { Component, OnInit,ViewChild } from '@angular/core'; import {GoogleMap, MapMarker } from '@angular/google-maps'; import { filter } from 'rxjs'; import { routes } from '../../assets/Pazintiniai_takai';
+import { Component, OnInit,ViewChild } from '@angular/core'; import {GoogleMap, MapMarker } from '@angular/google-maps'; import {debounceTime, filter } from 'rxjs'; import { routes } from '../../assets/Pazintiniai_takai';
 
 @Component({
   selector: 'app-home',
@@ -34,7 +34,7 @@ export class HomeComponent implements OnInit {
 
   // TODO change this one, but it works +-
   click(event: google.maps.MapMouseEvent) {
-    this.map.boundsChanged.subscribe((map) => {
+    this.map.boundsChanged.pipe(debounceTime(100)).subscribe((map) => {
       this.markers.forEach((marker: any) => {
         const mark = new google.maps.LatLng(marker.position.lat, marker.position.lng)
         console.log(this.map.getBounds()?.contains(mark));
