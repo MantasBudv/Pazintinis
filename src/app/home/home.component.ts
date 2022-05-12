@@ -49,14 +49,14 @@ export class HomeComponent implements OnInit {
   addMarker(route: any) {
     this.markers.push({
       position: {
-        lat: route.geometry.coordinates[1],
-        lng: route.geometry.coordinates[0],
+        lat: route.coordinates[1],
+        lng: route.coordinates[0],
       },
       // label: {
       //   color: 'red',
       //   text: route.properties.Name,
       // },
-      title: route.properties.Name,
+      title: route.name,
       options: { animation: google.maps.Animation.DROP },
     })
   }
