@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core'; import { MapMarker } from '@angular/google-maps'; import { routes } from '../../assets/Pazintiniai_takai';
+import { Component, OnInit,ViewChild } from '@angular/core'; import {GoogleMap, MapMarker } from '@angular/google-maps'; import { filter } from 'rxjs'; import { routes } from '../../assets/Pazintiniai_takai';
 
 @Component({
   selector: 'app-home',
@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core'; import { MapMarker } from '@a
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
+  @ViewChild('map') map!: GoogleMap;
   public zoom = 10;
   public center: google.maps.LatLngLiteral = { lat: 54.9202826, lng: 23.9525806 };
   public options: google.maps.MapOptions = {
@@ -29,11 +30,16 @@ export class HomeComponent implements OnInit {
     routes.forEach((route) => {
       this.addMarker(route);
     })
-
   }
 
+  // TODO change this one, but it works +-
   click(event: google.maps.MapMouseEvent) {
-    // console.log(event)
+    this.map.boundsChanged.subscribe((map) => {
+      this.markers.forEach((marker: any) => {
+        const mark = new google.maps.LatLng(marker.position.lat, marker.position.lng)
+        console.log(this.map.getBounds()?.contains(mark));
+      });
+    })
   }
 
   public markerClick(event: any, index: number): void {
