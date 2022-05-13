@@ -107,6 +107,8 @@ export class DetailsComponent implements OnInit, OnDestroy {
 
     this.subscription.add(this.initMap());
 
+    this.center = { lat: this.routeItem$.value.coordinates[1], lng: this.routeItem$.value.coordinates[0] }
+
   }
 
   public ngOnDestroy(): void {
