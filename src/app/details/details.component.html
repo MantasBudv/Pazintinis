@@ -8,6 +8,16 @@
 >
 <map-polyline [path]="vertices" [options]="polylineOptions">
 </map-polyline>
+<map-marker
+*ngFor="let marker of (markers$ | async); let index = index"
+[position]="marker.position"
+[label]="marker.label"
+[title]="marker.title"
+[options]="marker.options"
+[id]="index"
+>
+</map-marker>
+
 </google-map>
 
 <div class="container">

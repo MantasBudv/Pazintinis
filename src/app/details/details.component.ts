@@ -92,6 +92,7 @@ export class DetailsComponent implements OnInit, OnDestroy {
   ];
   public routeItem$: BehaviorSubject<any> = new BehaviorSubject({});
   public routeItemPath$: BehaviorSubject<any> = new BehaviorSubject([]);
+  public markers$: BehaviorSubject<any> = new BehaviorSubject([]);
 
   private readonly subscription = new Subscription();
 
@@ -118,14 +119,30 @@ export class DetailsComponent implements OnInit, OnDestroy {
   public setIndividualRoute(routeId: any): void {
    if(routes[routeId]) {
      this.routeItem$.next(routes[routeId]);
+     this.addMarker(routes[routeId]);
    }
   }
+
+  public addMarker(route: any) {
+    this.markers$.value.push({
+      position: {
+        lat: route.coordinates[1],
+        lng: route.coordinates[0],
+      },
+      title: route.name,
+      options: { animation: google.maps.Animation.DROP },
+      distance: route.distance,
+      time: route.time
+    })
+  }
+
 
   private initMap(): Subscription {
     return this.routeItem$.subscribe(routeItem => {
 
     });
   }
+
 
 
 }
