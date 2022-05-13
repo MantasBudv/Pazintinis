@@ -1,5 +1,6 @@
+import { ChangeDetection } from '@angular/cli/lib/config/workspace-schema';
 import { HttpClient } from '@angular/common/http';
-import {AfterViewInit, Component,OnDestroy, OnInit,ViewChild } from '@angular/core'; import {GoogleMap, MapMarker } from '@angular/google-maps'; import { Router } from '@angular/router'; import {BehaviorSubject, debounceTime, filter,Subscription } from 'rxjs'; import { routes } from '../../assets/Pazintiniai_takai';
+import {AfterViewInit,ChangeDetectorRef, Component,OnDestroy, OnInit,ViewChild } from '@angular/core'; import {GoogleMap, MapMarker } from '@angular/google-maps'; import { Router } from '@angular/router'; import {BehaviorSubject, debounceTime, filter,Subscription } from 'rxjs'; import { routes } from '../../assets/Pazintiniai_takai';
 
 @Component({
   selector: 'app-home',
@@ -21,7 +22,7 @@ export class HomeComponent implements OnInit, AfterViewInit {
   public visibleMarkers$: BehaviorSubject<any> = new BehaviorSubject([]);
 
   private readonly subscription = new Subscription();
-  constructor(private readonly router: Router, private http: HttpClient) { }
+  constructor(private readonly router: Router, private http: HttpClient, private readonly cdr: ChangeDetectorRef) { }
 
   public ngOnInit(): void {
     navigator.geolocation.getCurrentPosition((position) => {
@@ -30,14 +31,20 @@ export class HomeComponent implements OnInit, AfterViewInit {
         lng: position.coords.longitude,
       }
     });
-
-    routes.forEach((route) => {
-      this.addMarker(route);
-    })
-
+    try {
      this.http.get<any>('https://c235-213-197-157-70.eu.ngrok.io/').subscribe((data) => {
-       console.log(data);
+       data.forEach((route: any) => {
+        this.addMarkerAPI(route);
+      });
      });
+    } catch {
+      routes.forEach((route) => {
+        this.addMarker(route);
+      });
+    }
+    setTimeout(() => {
+      this.cdr.detectChanges();
+    },0)
   }
 
   public ngAfterViewInit(): void {
@@ -75,6 +82,23 @@ export class HomeComponent implements OnInit, AfterViewInit {
     })
   }
 
+  addMarkerAPI(route: any) {
+    this.markers$.value.push({
+      position: {
+        lat: route.position.lat,
+        lng: route.position.lng,
+      },
+      // label: {
+      //   color: 'red',
+      //   text: route.properties.Name,
+      // },
+      title: route.title,
+      options: { animation: google.maps.Animation.DROP },
+      distance: route.distance,
+      time: route.time
+    })
+  }
+
   private filterVisibleMarkers(): void {
     const visibleMarkers = [];
     for(let i = 0; i < this.markers$.value.length; i++) {
@@ -84,7 +108,6 @@ export class HomeComponent implements OnInit, AfterViewInit {
       }
     }
     this.visibleMarkers$.next(visibleMarkers);
-    console.log(visibleMarkers);
   }
 
   public findMarkerIndex(marker: any): void {
