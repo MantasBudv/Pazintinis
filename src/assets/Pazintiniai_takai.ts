@@ -19,6 +19,95 @@ export const routes =  [{
       ]
   },
   {
+    distance: [
+        "5,8 km"
+    ],
+    time: [
+        "3 h"
+    ],
+    coordinates: [
+        23.5096049,
+        54.7473469
+    ],
+
+    description: "Kazlų Rūdos pašonėje yra pažintinis miško takas, kuriame yra du maršrutai - pėsčiųjų ir pėsčiųjų - dviratininkų.Geltonai paženklinta dviratininkų - pėsčiųjų trasa driekiasi miško keliais 7 kilometrus, o per vokiškus kalnus einantis raudonai paženklintas pėsčiųjų takas tėra vos kilometro ilgio.Plačiau apie pažintinį taką skaitykite tinklaraštyje: https: //nesedeknamuose.lt/pazintiniai-takai/kazlu-rudos-pazintinis-takas/http://nesedeknamuose.lt/nei-du-nei-vienas-tas-pazintinis-misko-takas/",
+    images: [
+        "https://doc-0o-4c-mymaps.googleusercontent.com/untrusted/hostedimage/jngnabc8oll3cmbgvqfn3oh270/f9oq6apevpaqpth0p38djea4tk/1652381042000/2k8Q-GQPgmeKK2OBHaPJqGXSFhE8BHHo/02197029159215999287/5AIsG_vaSwUn_4dGMzzlisbhDhe5cbBZaDU-7mUsqAsfpxJoz1wgsKSzCyG8410Qgu2dOzW1CR95krEdyS_cXqPCzxbge8_ReZsyuv4qB7lN2LEE2xomh2gyICWs9jJn7lulGi8ky3wdCpi2EpDv-oCTdD3nK5VXAOzvXeb5DMjwybsWLFpnNHCAP8uzP0ShrGPASksbf?session=0&fife",
+        "https://doc-0g-4c-mymaps.googleusercontent.com/untrusted/hostedimage/jngnabc8oll3cmbgvqfn3oh270/24h78jjv52aqo50shrp04n0n5g/1652381042000/2k8Q-GQPgmeKK2OBHaPJqGXSFhE8BHHo/02197029159215999287/5AIsG_vbxYgVeA7gDbLg1ChKApwDDDLSyhnNSyeMCO6XW17aL7k4MgAiOEC_Bgsuykr4kgFPuX3R1tRL19ASnO3g8F0X1gsBfbRP08QusNZOi78gC3ZsIq0yzXBNeMZS1OmNBYq-weUqRI7Yts87BeZo-QoOvQSA5eiC_KOfpN2BZ6ITPEaQOr0RjOJtxkyB8a3TIBsJ7?session=0&fife",
+        "https://doc-0o-4c-mymaps.googleusercontent.com/untrusted/hostedimage/jngnabc8oll3cmbgvqfn3oh270/91tdtvf6f93an3fi7hgs42f55o/1652381042000/2k8Q-GQPgmeKK2OBHaPJqGXSFhE8BHHo/02197029159215999287/5AIsG_vZu_dafzj3XwXcBq0YbSpVnUsMcsWB98MJk6RIZfq1x-njFHhYYn8c0g_GNpEG9vOBzUbTbEiBbvhoDdGbtyCuUb84ANgEXnqvDcxS10KhSQO_9uAPtE6Ui6C8LDXu-pYxNuVAa2qGcip4iDVRTmFeRjmeNV6ETA6e4dX8Ae4oPobGxSqKKqltABbsk3VHqA4f1?session=0&fife",
+        "https://doc-10-4c-mymaps.googleusercontent.com/untrusted/hostedimage/jngnabc8oll3cmbgvqfn3oh270/u1qslt7ddhnmbetg885v2tbb6s/1652381042000/2k8Q-GQPgmeKK2OBHaPJqGXSFhE8BHHo/02197029159215999287/5AIsG_vbUtwHP64rnSeWgoxMLtaXom6r47LwBbl4xivcSt4Bba3YDNDh6eZ5xQ6fbLawH9sAKQpy0VqqCUJEpFqO2MqWyzAH6uDIbu0Quk6qR30Lu4R0bO-gSNb37njuN71_pp-4ng7tDWct23aJ2eGynti66897iFvufTluH5ufM47BTrK-JszPRH7FVWYTk4Zkj78UD?session=0&fife",
+    ],
+    name: "Kazlų rūdos pažintinis miško takas",
+    directions: [
+      { lng: 23.5095807, lat: 54.7472329 } ,
+      { lng: 23.5095109, lat: 54.7469605 } ,
+      { lng: 23.5094037, lat: 54.7467251 } ,
+      { lng: 23.5092907, lat: 54.7464681 },
+      { lng: 23.5092746,lat: 54.7462514 } ,
+      { lng: 23.5092639, lat: 54.7460965 },
+      { lng: 23.5091942,lat: 54.7459541 },
+      { lng: 23.508985, lat: 54.7457621 },
+      { lng: 23.5089152, lat: 54.7456011 },
+      { lng: 23.5089152, lat: 54.7454618 },
+      { lng: 23.5089689, lat: 54.745353 },
+      { lng: 23.5095429, lat: 54.7449354 },
+      { lng: 23.5098486, lat: 54.7447775 },
+      { lng: 23.5102992, lat: 54.7446567 },
+      { lng: 23.5108196, lat: 54.7445112 },
+      { lng: 23.5117584, lat: 54.7442666 },
+      { lng: 23.5160005, lat: 54.7418991 },
+      { lng: 23.5165583, lat: 54.7418496 },
+      { lng: 23.5169017, lat: 54.7417257 },
+      { lng: 23.5170733, lat: 54.7414408 },
+      { lng: 23.5170304, lat: 54.7409206 },
+      { lng: 23.5170519, lat: 54.7406852 },
+      { lng: 23.5175883, lat: 54.7400535 },
+      { lng: 23.5176312, lat: 54.7396571 },
+      { lng: 23.5172665, lat: 54.7383068 },
+      { lng: 23.5159361, lat: 54.7365477 },
+      { lng: 23.5140478, lat: 54.7355814 },
+      { lng: 23.5128033, lat: 54.7355814 },
+      { lng: 23.5116875, lat: 54.7360274 },
+      { lng: 23.5103571, lat: 54.7365725 },
+      { lng: 23.5090696, lat: 54.7371176 },
+      { lng: 23.5076963, lat: 54.7376131 },
+      { lng: 23.5069239, lat: 54.7382077 },
+      { lng: 23.5062372, lat: 54.7385546 },
+      { lng: 23.5055506, lat: 54.7386537 },
+      { lng: 23.5047352, lat: 54.7386537 },
+      { lng: 23.5039627, lat: 54.7387528 },
+      { lng: 23.5022032, lat: 54.7391492 },
+      { lng: 23.5012161, lat: 54.7395208 },
+      { lng: 23.5005295, lat: 54.7398429 },
+      { lng: 23.5001003, lat: 54.7404622 },
+      { lng: 23.4993708, lat: 54.7415523 },
+      { lng: 23.4988558, lat: 54.7424937 },
+      { lng: 23.4981691, lat: 54.7428405 },
+      { lng: 23.4955084, lat: 54.7428405 },
+      { lng: 23.4950792, lat: 54.7440296 },
+      { lng: 23.4949934, lat: 54.7451691 },
+      { lng: 23.4967958, lat: 54.7451195 },
+      { lng: 23.4992849, lat: 54.7451691 },
+      { lng: 23.5011732, lat: 54.7440791 },
+      { lng: 23.5028898, lat: 54.7440296 },
+      { lng: 23.5040056, lat: 54.7440791 },
+      { lng: 23.5042202, lat: 54.7448966 },
+      { lng: 23.5040914, lat: 54.7455902 },
+      { lng: 23.5040914, lat: 54.7464819 },
+      { lng: 23.5041344, lat: 54.7471755 },
+      { lng: 23.5039627, lat: 54.7474975 },
+      { lng: 23.5043489, lat: 54.7476709 },
+      { lng: 23.5079109, lat: 54.7473984 },
+      { lng: 23.5088121, lat: 54.7474232 },
+      { lng: 23.5094664, lat: 54.7474279 },
+      { lng: 23.5094664, lat: 54.7474279}
+    ]
+
+  },
+
+
+
+  {
       distance: [
           "3 km"
       ],
@@ -1749,27 +1838,6 @@ export const routes =  [{
   name: "Viešvilės rezervato apžvalgos takas"
 },
 
-{
-  distance: [
-      "5,8 km"
-  ],
-  time: [
-      "3 h"
-  ],
-  coordinates: [
-      23.5096049,
-      54.7473469
-  ],
-
-  description: "Kazlų Rūdos pašonėje yra pažintinis miško takas, kuriame yra du maršrutai - pėsčiųjų ir pėsčiųjų - dviratininkų.Geltonai paženklinta dviratininkų - pėsčiųjų trasa driekiasi miško keliais 7 kilometrus, o per vokiškus kalnus einantis raudonai paženklintas pėsčiųjų takas tėra vos kilometro ilgio.Plačiau apie pažintinį taką skaitykite tinklaraštyje: https: //nesedeknamuose.lt/pazintiniai-takai/kazlu-rudos-pazintinis-takas/http://nesedeknamuose.lt/nei-du-nei-vienas-tas-pazintinis-misko-takas/",
-  images: [
-      "https://doc-0o-4c-mymaps.googleusercontent.com/untrusted/hostedimage/jngnabc8oll3cmbgvqfn3oh270/f9oq6apevpaqpth0p38djea4tk/1652381042000/2k8Q-GQPgmeKK2OBHaPJqGXSFhE8BHHo/02197029159215999287/5AIsG_vaSwUn_4dGMzzlisbhDhe5cbBZaDU-7mUsqAsfpxJoz1wgsKSzCyG8410Qgu2dOzW1CR95krEdyS_cXqPCzxbge8_ReZsyuv4qB7lN2LEE2xomh2gyICWs9jJn7lulGi8ky3wdCpi2EpDv-oCTdD3nK5VXAOzvXeb5DMjwybsWLFpnNHCAP8uzP0ShrGPASksbf?session=0&fife",
-      "https://doc-0g-4c-mymaps.googleusercontent.com/untrusted/hostedimage/jngnabc8oll3cmbgvqfn3oh270/24h78jjv52aqo50shrp04n0n5g/1652381042000/2k8Q-GQPgmeKK2OBHaPJqGXSFhE8BHHo/02197029159215999287/5AIsG_vbxYgVeA7gDbLg1ChKApwDDDLSyhnNSyeMCO6XW17aL7k4MgAiOEC_Bgsuykr4kgFPuX3R1tRL19ASnO3g8F0X1gsBfbRP08QusNZOi78gC3ZsIq0yzXBNeMZS1OmNBYq-weUqRI7Yts87BeZo-QoOvQSA5eiC_KOfpN2BZ6ITPEaQOr0RjOJtxkyB8a3TIBsJ7?session=0&fife",
-      "https://doc-0o-4c-mymaps.googleusercontent.com/untrusted/hostedimage/jngnabc8oll3cmbgvqfn3oh270/91tdtvf6f93an3fi7hgs42f55o/1652381042000/2k8Q-GQPgmeKK2OBHaPJqGXSFhE8BHHo/02197029159215999287/5AIsG_vZu_dafzj3XwXcBq0YbSpVnUsMcsWB98MJk6RIZfq1x-njFHhYYn8c0g_GNpEG9vOBzUbTbEiBbvhoDdGbtyCuUb84ANgEXnqvDcxS10KhSQO_9uAPtE6Ui6C8LDXu-pYxNuVAa2qGcip4iDVRTmFeRjmeNV6ETA6e4dX8Ae4oPobGxSqKKqltABbsk3VHqA4f1?session=0&fife",
-      "https://doc-10-4c-mymaps.googleusercontent.com/untrusted/hostedimage/jngnabc8oll3cmbgvqfn3oh270/u1qslt7ddhnmbetg885v2tbb6s/1652381042000/2k8Q-GQPgmeKK2OBHaPJqGXSFhE8BHHo/02197029159215999287/5AIsG_vbUtwHP64rnSeWgoxMLtaXom6r47LwBbl4xivcSt4Bba3YDNDh6eZ5xQ6fbLawH9sAKQpy0VqqCUJEpFqO2MqWyzAH6uDIbu0Quk6qR30Lu4R0bO-gSNb37njuN71_pp-4ng7tDWct23aJ2eGynti66897iFvufTluH5ufM47BTrK-JszPRH7FVWYTk4Zkj78UD?session=0&fife",
-  ],
-  name: "Kazlų rūdos pažintinis miško takas"
-},
 
 {
   distance: [
