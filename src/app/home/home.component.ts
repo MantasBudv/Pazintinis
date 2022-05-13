@@ -1,3 +1,4 @@
+import { HttpClient } from '@angular/common/http';
 import {AfterViewInit, Component,OnDestroy, OnInit,ViewChild } from '@angular/core'; import {GoogleMap, MapMarker } from '@angular/google-maps'; import { Router } from '@angular/router'; import {BehaviorSubject, debounceTime, filter,Subscription } from 'rxjs'; import { routes } from '../../assets/Pazintiniai_takai';
 
 @Component({
@@ -20,7 +21,7 @@ export class HomeComponent implements OnInit, AfterViewInit {
   public visibleMarkers$: BehaviorSubject<any> = new BehaviorSubject([]);
 
   private readonly subscription = new Subscription();
-  constructor(private readonly router: Router) { }
+  constructor(private readonly router: Router, private http: HttpClient) { }
 
   public ngOnInit(): void {
     navigator.geolocation.getCurrentPosition((position) => {
@@ -33,6 +34,10 @@ export class HomeComponent implements OnInit, AfterViewInit {
     routes.forEach((route) => {
       this.addMarker(route);
     })
+
+     this.http.get<any>('https://c235-213-197-157-70.eu.ngrok.io').subscribe((data) => {
+       console.log(data);
+     });
   }
 
   public ngAfterViewInit(): void {
