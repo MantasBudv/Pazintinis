@@ -1,1 +1,15 @@
-<p>details works!</p>
+<google-map
+  #map
+  height="40%"
+  width="100%"
+  [zoom]="zoom"
+  [center]="center"
+  [options]="options"
+>
+<map-polyline [options]="polylineOptions">
+</map-polyline>
+</google-map>
+
+<pre>
+{{ routeItem$ | async | json }}
+</pre>
