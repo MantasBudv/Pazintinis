@@ -110,6 +110,9 @@ export class HomeComponent implements OnInit, OnDestroy, AfterViewInit {
      setTimeout(() => {
         this.cdr.detectChanges();
       },0)
+     setTimeout(() => {
+        this.cdr.detectChanges();
+      },2000)
     });
   }
 }
