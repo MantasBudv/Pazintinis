@@ -1,4 +1,4 @@
-import {AfterViewInit, Component,OnDestroy, OnInit,ViewChild } from '@angular/core'; import {GoogleMap, MapMarker } from '@angular/google-maps'; import {BehaviorSubject, debounceTime, filter,Subscription } from 'rxjs'; import { routes } from '../../assets/Pazintiniai_takai';
+import {AfterViewInit, Component,OnDestroy, OnInit,ViewChild } from '@angular/core'; import {GoogleMap, MapMarker } from '@angular/google-maps'; import { Router } from '@angular/router'; import {BehaviorSubject, debounceTime, filter,Subscription } from 'rxjs'; import { routes } from '../../assets/Pazintiniai_takai';
 
 @Component({
   selector: 'app-home',
@@ -20,7 +20,7 @@ export class HomeComponent implements OnInit, AfterViewInit {
   public visibleMarkers$: BehaviorSubject<any> = new BehaviorSubject([]);
 
   private readonly subscription = new Subscription();
-  constructor() { }
+  constructor(private readonly router: Router) { }
 
   public ngOnInit(): void {
     navigator.geolocation.getCurrentPosition((position) => {
@@ -46,13 +46,12 @@ export class HomeComponent implements OnInit, AfterViewInit {
     })
   }
 
-  // TODO change this one, but it works +-
   click(event: google.maps.MapMouseEvent) {
-
+    console.log(event);
   }
 
   public markerClick(event: any, index: number): void {
-    console.log(event, index);
+    this.router.navigateByUrl(`${index}`);
   }
 
   addMarker(route: any) {
@@ -82,5 +81,16 @@ export class HomeComponent implements OnInit, AfterViewInit {
     }
     this.visibleMarkers$.next(visibleMarkers);
     console.log(visibleMarkers);
+  }
+
+  public findMarkerIndex(marker: any): void {
+    let route = 0;
+    for(let i = 0; i < this.markers$.value.length; i++) {
+      if (this.markers$.value[i].title === marker.title) {
+        route = i;
+        break;
+      }
+    }
+    this.router.navigateByUrl(route.toString());
   }
 }
