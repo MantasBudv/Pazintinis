@@ -25,26 +25,15 @@ export class HomeComponent implements OnInit, AfterViewInit {
   constructor(private readonly router: Router, private http: HttpClient, private readonly cdr: ChangeDetectorRef) { }
 
   public ngOnInit(): void {
+
+    this.subscription.add(this.getMarkers());
+
     navigator.geolocation.getCurrentPosition((position) => {
       this.center = {
         lat: position.coords.latitude,
         lng: position.coords.longitude,
       }
     });
-    try {
-     this.http.get<any>('https://c235-213-197-157-70.eu.ngrok.io/').subscribe((data) => {
-       data.forEach((route: any) => {
-        this.addMarkerAPI(route);
-      });
-     });
-    } catch {
-      routes.forEach((route) => {
-        this.addMarker(route);
-      });
-    }
-    setTimeout(() => {
-      this.cdr.detectChanges();
-    },0)
   }
 
   public ngAfterViewInit(): void {
@@ -57,24 +46,27 @@ export class HomeComponent implements OnInit, AfterViewInit {
     })
   }
 
-  click(event: google.maps.MapMouseEvent) {
-
-  }
-
   public markerClick(event: any, index: number): void {
     this.router.navigateByUrl(`${index}`);
   }
 
-  addMarker(route: any) {
+  public findMarkerIndex(marker: any): void {
+    let route = 0;
+    for(let i = 0; i < this.markers$.value.length; i++) {
+      if (this.markers$.value[i].title === marker.title) {
+        route = i;
+        break;
+      }
+    }
+    this.router.navigateByUrl(route.toString());
+  }
+
+  private addMarker(route: any) {
     this.markers$.value.push({
       position: {
         lat: route.coordinates[1],
         lng: route.coordinates[0],
       },
-      // label: {
-      //   color: 'red',
-      //   text: route.properties.Name,
-      // },
       title: route.name,
       options: { animation: google.maps.Animation.DROP },
       distance: route.distance,
@@ -82,16 +74,12 @@ export class HomeComponent implements OnInit, AfterViewInit {
     })
   }
 
-  addMarkerAPI(route: any) {
+  private addMarkerAPI(route: any) {
     this.markers$.value.push({
       position: {
         lat: route.position.lat,
         lng: route.position.lng,
       },
-      // label: {
-      //   color: 'red',
-      //   text: route.properties.Name,
-      // },
       title: route.title,
       options: { animation: google.maps.Animation.DROP },
       distance: route.distance,
@@ -110,14 +98,17 @@ export class HomeComponent implements OnInit, AfterViewInit {
     this.visibleMarkers$.next(visibleMarkers);
   }
 
-  public findMarkerIndex(marker: any): void {
-    let route = 0;
-    for(let i = 0; i < this.markers$.value.length; i++) {
-      if (this.markers$.value[i].title === marker.title) {
-        route = i;
-        break;
-      }
-    }
-    this.router.navigateByUrl(route.toString());
+  private getMarkers(): Subscription {
+    return this.http.get<any>('https://c235-213-197-157-70.eu.ngrok.io/').pipe(filter((data) => !!data)).subscribe((data) => {
+      data.forEach((route: any) => {
+       this.addMarkerAPI(route);
+     });
+     setTimeout(() => {
+      this.cdr.detectChanges();
+    },0)
+
+
+    });
   }
+
 }

@@ -5,7 +5,6 @@
   [zoom]="zoom"
   [center]="center"
   [options]="options"
-  (mapClick)="click($event)"
 >
   <map-marker
     *ngFor="let marker of (markers$ | async); let index = index"
