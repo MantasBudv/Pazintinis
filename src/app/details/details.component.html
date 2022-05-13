@@ -9,3 +9,16 @@
 <map-polyline [path]="vertices" [options]="polylineOptions">
 </map-polyline>
 </google-map>
+
+<div class="container">
+  <div class="col-lg-12">
+    <div class="row route-name">{{ routeItem$.value.name }}</div>
+    <div class="row">{{ routeItem$.value.distance }} {{ routeItem$.value.time }}</div>
+    <div class="row">{{ routeItem$.value.description }}</div>
+    <div class="row">
+      <span *ngFor="let image of routeItem$.value.images">
+        <img [src]="image" alt="route images">
+      </span>
+    </div>
+  </div>
+</div>
