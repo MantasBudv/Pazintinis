@@ -12,12 +12,16 @@
 
 <div class="container">
   <div class="col-lg-12">
-    <div class="row route-name">{{ routeItem$.value.name }}</div>
-    <div class="row">{{ routeItem$.value.distance }} {{ routeItem$.value.time }}</div>
-    <div class="row">{{ routeItem$.value.description }}</div>
-    <div class="row">
-      <span *ngFor="let image of routeItem$.value.images">
-        <img [src]="image" alt="route images">
+    <div class="row route-name">
+      <div class="col-sm-12">
+        {{ routeItem$.value.name }}
+      </div>
+    </div>
+    <div class="row"><div class="col-sm-12">{{ routeItem$.value.distance }} {{ routeItem$.value.time }}</div></div>
+    <div class="row"><div class="col-sm-12">{{ routeItem$.value.description }}</div></div>
+    <div class="row mt-4">
+      <span *ngFor="let image of routeItem$.value.images" class="col-sm-3 mb-4">
+        <img [src]="image" alt="route images" style="max-width: 100%;">
       </span>
     </div>
   </div>
