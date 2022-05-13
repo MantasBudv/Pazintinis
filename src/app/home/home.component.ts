@@ -101,13 +101,11 @@ export class HomeComponent implements OnInit, AfterViewInit {
   private getMarkers(): Subscription {
     return this.http.get<any>('https://c235-213-197-157-70.eu.ngrok.io/').pipe(filter((data) => !!data)).subscribe((data) => {
       data.forEach((route: any) => {
-       this.addMarkerAPI(route);
+       this.addMarker(route);
      });
      setTimeout(() => {
-      this.cdr.detectChanges();
-    },0)
-
-
+        this.cdr.detectChanges();
+      },0)
     });
   }
 
