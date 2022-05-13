@@ -112,5 +112,4 @@ export class HomeComponent implements OnInit, OnDestroy, AfterViewInit {
       },0)
     });
   }
-
 }
