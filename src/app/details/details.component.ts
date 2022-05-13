@@ -66,8 +66,10 @@ export class DetailsComponent implements OnInit, OnDestroy {
         };
 
         if(routeItem.directions && routeItem.directions.length) {
-
+          const pathCoordinates: any[] = [];
           routeItem.directions.forEach((coordinates: any) => {
+            console.log(coordinates);
+            //this.polylineOptions.path.push();
           })
         }
       }
