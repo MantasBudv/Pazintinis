@@ -127,5 +127,8 @@ export class DetailsComponent implements OnInit, OnDestroy {
     });
   }
 
-
+  changeStyles(event: any) {
+    const el = event.target;
+    el.setAttribute('style', 'display: none');
+  }
 }

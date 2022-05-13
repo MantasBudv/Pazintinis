@@ -21,7 +21,7 @@
     <div class="row"><div class="col-sm-12">{{ routeItem$.value.description }}</div></div>
     <div class="row mt-4">
       <span *ngFor="let image of routeItem$.value.images" class="col-sm-3 mb-4">
-        <img [src]="image" alt="route images" style="max-width: 100%;">
+        <img [src]="image" alt="route images" style="max-width: 100%;" (error)="changeStyles($event)">
       </span>
     </div>
   </div>
