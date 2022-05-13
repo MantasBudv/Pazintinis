@@ -1,1 +1,35 @@
-<p>home works!</p>
+<google-map
+  #map
+  height="40%"
+  width="100%"
+  [zoom]="zoom"
+  [center]="center"
+  [options]="options"
+  (mapClick)="click($event)"
+>
+  <map-marker
+    *ngFor="let marker of (markers$ | async); let index = index"
+    [position]="marker.position"
+    [label]="marker.label"
+    [title]="marker.title"
+    [options]="marker.options"
+    (mapClick)="markerClick($event, index)"
+    [id]="index"
+  >
+  </map-marker>
+</google-map>
+
+<div class="container">
+  <div class="row">
+    <div class="number">Nr.</div>
+    <div class="name">Name</div>
+    <div class="distance">Distance</div>
+    <div class="time">Time</div>
+  </div>
+  <a [routerLink]="marker.id" *ngFor="let marker of (visibleMarkers$ | async); let index = index" class="row">
+    <div class="number">{{ index }}</div>
+    <div class="name">{{ marker.title }}</div>
+    <div class="distance">{{ marker.distance }}</div>
+    <div class="time">{{ marker.time }}</div>
+  </a>
+</div>
