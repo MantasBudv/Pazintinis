@@ -3,6 +3,10 @@
   flex-direction: column;
 }
 
+.items {
+  max-height: 50vh;
+}
+
 .column-names {
   padding: 20px 10px 10px 10px;
   display: flex;
