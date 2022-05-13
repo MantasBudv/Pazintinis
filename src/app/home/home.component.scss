@@ -3,44 +3,56 @@
   flex-direction: column;
 }
 
-.row {
+.column-names {
+  padding: 20px 10px 10px 10px;
   display: flex;
-  font-size: 18px;
-  padding: 10px;
-  cursor: pointer;
-  border: 1px dashed lightgray;
+  cursor: default;
+  font-size: 20px;
+  font-weight: bold;
+  border: 0;
+}
 
+.travel-routes {
+  display: block;
   &:hover {
     background-color: lightgray;
   }
+}
 
-  .number {
-    text-align: center;
-    width: 80px;
-  }
+.row.travel-routes {
+  display: flex;
+  font-size: 16px;
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid lightgray;
 
-  .name {
-    flex-grow: 10;
-  }
-
-  .distance{
-    flex-grow: 2;
-  }
-
-  .time {
-    flex-grow: 2;
-  }
-
-  &:first-child {
-    cursor: default;
-    font-size: 24px;
-    font-weight: bold;
-    text-align: center;
-    border: 0;
-    &:hover {
-      background-color: white;
-    }
-  }
+  //.number {
+  //  text-align: center;
+  //  width: 40px;
+  //}
+  //
+  //.name {
+  //  flex-grow: 10;
+  //}
+  //
+  //.distance{
+  //  flex-grow: 2;
+  //}
+  //
+  //.time {
+  //  flex-grow: 2;
+  //}
+  //
+  //&:first-child {
+  //  cursor: default;
+  //  font-size: 24px;
+  //  font-weight: bold;
+  //  text-align: center;
+  //  border: 0;
+  //  &:hover {
+  //    background-color: white;
+  //  }
+  //}
 }
 
 a {
