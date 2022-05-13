@@ -1,6 +1,6 @@
 {
   "/1": {
-      "target": "http://localhost:8000",
+      "target": "https://c235-213-197-157-70.eu.ngrok.io",
       "secure": false,
       "logLevel": "debug"
   }

@@ -35,7 +35,7 @@ export class HomeComponent implements OnInit, AfterViewInit {
       this.addMarker(route);
     })
 
-     this.http.get<any>('https://c235-213-197-157-70.eu.ngrok.io').subscribe((data) => {
+     this.http.get<any>('https://c235-213-197-157-70.eu.ngrok.io/1').subscribe((data) => {
        console.log(data);
      });
   }
@@ -45,14 +45,13 @@ export class HomeComponent implements OnInit, AfterViewInit {
       for(let i = 0; i < this.markers$.value.length; i++) {
         const mark = new google.maps.LatLng(this.markers$.value[i].position.lat, this.markers$.value[i].position.lng)
         this.markers$.value[i].visible = this.map.getBounds()?.contains(mark);
-        console.log(this.map.getBounds()?.contains(mark));
       }
       this.filterVisibleMarkers();
     })
   }
 
   click(event: google.maps.MapMouseEvent) {
-    console.log(event);
+
   }
 
   public markerClick(event: any, index: number): void {
