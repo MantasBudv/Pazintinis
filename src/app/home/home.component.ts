@@ -7,7 +7,7 @@ import {AfterViewInit,ChangeDetectorRef, Component,OnDestroy, OnInit,ViewChild }
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss']
 })
-export class HomeComponent implements OnInit, AfterViewInit {
+export class HomeComponent implements OnInit, OnDestroy, AfterViewInit {
   @ViewChild('map') map!: GoogleMap;
   public zoom = 10;
   public center: google.maps.LatLngLiteral = { lat: 54.9202826, lng: 23.9525806 };
@@ -34,6 +34,10 @@ export class HomeComponent implements OnInit, AfterViewInit {
         lng: position.coords.longitude,
       }
     });
+  }
+
+  public ngOnDestroy(): void {
+    this.subscription.unsubscribe();
   }
 
   public ngAfterViewInit(): void {
