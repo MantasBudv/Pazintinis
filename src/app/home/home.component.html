@@ -25,10 +25,14 @@
       <div class="col-sm-2">Distance</div>
       <div class="col-sm-2">Time</div>
     </div>
-      <a (click)="findMarkerIndex(marker)" *ngFor="let marker of (visibleMarkers$ | async); let index = index" class="row travel-routes">
-        <div class="col-sm-8 name">{{ marker.title }}</div>
-        <div class="col-sm-2 distance">{{ marker.distance }}</div>
-        <div class="col-sm-2 time">{{ marker.time }}</div>
-      </a>
+    <div class="row">
+      <div class="col-lg-12 items overflow-scroll">
+        <a (click)="findMarkerIndex(marker)" *ngFor="let marker of (visibleMarkers$ | async); let index = index" class="row travel-routes">
+          <div class="col-sm-8 name">{{ marker.title }}</div>
+          <div class="col-sm-2 distance">{{ marker.distance }}</div>
+          <div class="col-sm-2 time">{{ marker.time }}</div>
+        </a>
+      </div>
+    </div>
   </div>
 </div>
