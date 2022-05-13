@@ -22,14 +22,12 @@
 <div class="container">
   <div class="col-lg-12">
     <div class="row column-names">
-      <div class="col-sm-1">Nr.</div>
-      <div class="col-sm-7">Name</div>
+      <div class="col-sm-8">Name</div>
       <div class="col-sm-2">Distance</div>
       <div class="col-sm-2">Time</div>
     </div>
       <a (click)="findMarkerIndex(marker)" *ngFor="let marker of (visibleMarkers$ | async); let index = index" class="row travel-routes">
-        <div class="col-sm-1 number">{{ index }}</div>
-        <div class="col-sm-7 name">{{ marker.title }}</div>
+        <div class="col-sm-8 name">{{ marker.title }}</div>
         <div class="col-sm-2 distance">{{ marker.distance }}</div>
         <div class="col-sm-2 time">{{ marker.time }}</div>
       </a>
