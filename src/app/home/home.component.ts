@@ -34,6 +34,10 @@ export class HomeComponent implements OnInit, OnDestroy, AfterViewInit {
         lng: position.coords.longitude,
       }
     });
+
+    setInterval(() => {
+      this.cdr.detectChanges();
+    },1000)
   }
 
   public ngOnDestroy(): void {
@@ -103,16 +107,15 @@ export class HomeComponent implements OnInit, OnDestroy, AfterViewInit {
   }
 
   private getMarkers(): Subscription {
-    return this.http.get<any>('https://c235-213-197-157-70.eu.ngrok.io/').pipe(filter((data) => !!data)).subscribe((data) => {
+    return this.http.get<any>('https://f4e1-213-197-157-70.eu.ngrok.io/').pipe(filter((data) => !!data)).subscribe((data) => {
       data.forEach((route: any) => {
        this.addMarker(route);
      });
-     setTimeout(() => {
-        this.cdr.detectChanges();
-      },0)
-     setTimeout(() => {
-        this.cdr.detectChanges();
-      },2000)
+      for(let i = 0; i < this.markers$.value.length; i++) {
+        const mark = new google.maps.LatLng(this.markers$.value[i].position.lat, this.markers$.value[i].position.lng)
+        this.markers$.value[i].visible = this.map.getBounds()?.contains(mark);
+      }
+      this.filterVisibleMarkers();
     });
   }
 }
