@@ -35,7 +35,7 @@ export class HomeComponent implements OnInit, AfterViewInit {
       this.addMarker(route);
     })
 
-     this.http.get<any>('https://c235-213-197-157-70.eu.ngrok.io/1').subscribe((data) => {
+     this.http.get<any>('https://c235-213-197-157-70.eu.ngrok.io/').subscribe((data) => {
        console.log(data);
      });
   }
