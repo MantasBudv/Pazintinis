@@ -12,9 +12,8 @@ import { routes } from '../../assets/Pazintiniai_takai';
 })
 export class DetailsComponent implements OnInit, OnDestroy {
   @ViewChild('map') map!: GoogleMap;
-
-  public zoom = 10;
-  public center: google.maps.LatLngLiteral = { lat: 54.9202826, lng: 23.9525806 };
+  public zoom = 13;
+  public center: google.maps.LatLngLiteral = { lat: 54.7449354, lng: 23.5095429 };
   public options: google.maps.MapOptions = {
     zoomControl: true,
     scrollwheel: true,
@@ -28,18 +27,17 @@ export class DetailsComponent implements OnInit, OnDestroy {
     strokeWeight: 2,
   };
   public vertices: google.maps.LatLngLiteral[] = [
-    { lng: 23.5095807, lat: 54 },
-    { lng: 23.5095109, lat: 54 },
-    { lng: 23.5094037, lat: 54 },
-    { lng: 23.5092907, lat: 54 },
-    { lng: 23.5092746, lat: 54 },
-    { lng: 23.5092639, lat: 54 },
-    { lng: 23.5091942, lat: 54 },
-    { lng: 23.5089152, lat: 54 },
-    { lng: 23.5089152, lat: 54 },
-    { lng: 23.5089689, lat: 54 },
-    { lng: 23.5091137, lat: 54 },
-    { lng: 23.5093176, lat: 54 },
+    { lng: 23.5095807, lat: 54.7472329 } ,
+    { lng: 23.5095109, lat: 54.7469605 } ,
+    { lng: 23.5094037, lat: 54.7467251 } ,
+    { lng: 23.5092907, lat: 54.7464681 },
+    { lng: 23.5092746,lat: 54.7462514 } ,
+    { lng: 23.5092639, lat: 54.7460965 },
+    { lng: 23.5091942,lat: 54.7459541 },
+    { lng: 23.508985, lat: 54.7457621 },
+    { lng: 23.5089152, lat: 54.7456011 },
+    { lng: 23.5089152, lat: 54.7454618 },
+    { lng: 23.5089689, lat: 54.745353 },
     { lng: 23.5095429, lat: 54.7449354 },
     { lng: 23.5098486, lat: 54.7447775 },
     { lng: 23.5102992, lat: 54.7446567 },
@@ -89,7 +87,8 @@ export class DetailsComponent implements OnInit, OnDestroy {
     { lng: 23.5043489, lat: 54.7476709 },
     { lng: 23.5079109, lat: 54.7473984 },
     { lng: 23.5088121, lat: 54.7474232 },
-    { lng: 23.5094664, lat: 54.7474279 }
+    { lng: 23.5094664, lat: 54.7474279 },
+    { lng: 23.5094664, lat: 54.7474279}
   ];
   public routeItem$: BehaviorSubject<any> = new BehaviorSubject({});
   public routeItemPath$: BehaviorSubject<any> = new BehaviorSubject([]);
@@ -123,17 +122,6 @@ export class DetailsComponent implements OnInit, OnDestroy {
   private initMap(): Subscription {
     return this.routeItem$.subscribe(routeItem => {
 
-      if(routeItem) {
-        this.center = {
-          lat: routeItem.coordinates[1],
-          lng: routeItem.coordinates[0],
-        };
-
-        if(routeItem.directions && routeItem.directions.length) {
-          this.vertices.push(routeItem.directions);
-          console.log(this.vertices);
-        }
-      }
     });
   }
 
