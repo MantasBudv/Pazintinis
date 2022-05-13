@@ -27,7 +27,7 @@
       <div class="col-sm-2">Distance</div>
       <div class="col-sm-2">Time</div>
     </div>
-      <a [routerLink]="marker.id" *ngFor="let marker of (visibleMarkers$ | async); let index = index" class="row travel-routes">
+      <a (click)="findMarkerIndex(marker)" *ngFor="let marker of (visibleMarkers$ | async); let index = index" class="row travel-routes">
         <div class="col-sm-1 number">{{ index }}</div>
         <div class="col-sm-7 name">{{ marker.title }}</div>
         <div class="col-sm-2 distance">{{ marker.distance }}</div>
