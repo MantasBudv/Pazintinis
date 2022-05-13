@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  font-size: 18px;
+  padding: 10px;
+  cursor: pointer;
+  border: 1px dashed lightgray;
+
+  &:hover {
+    background-color: lightgray;
+  }
+
+  .number {
+    text-align: center;
+    width: 80px;
+  }
+
+  .name {
+    flex-grow: 10;
+  }
+
+  .distance{
+    flex-grow: 2;
+  }
+
+  .time {
+    flex-grow: 2;
+  }
+
+  &:first-child {
+    cursor: default;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    border: 0;
+    &:hover {
+      background-color: white;
+    }
+  }
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}

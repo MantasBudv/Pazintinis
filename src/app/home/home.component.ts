@@ -1,11 +1,11 @@
-import { Component, OnInit,ViewChild } from '@angular/core'; import {GoogleMap, MapMarker } from '@angular/google-maps'; import {debounceTime, filter } from 'rxjs'; import { routes } from '../../assets/Pazintiniai_takai';
+import {AfterViewInit, Component,OnDestroy, OnInit,ViewChild } from '@angular/core'; import {GoogleMap, MapMarker } from '@angular/google-maps'; import {BehaviorSubject, debounceTime, filter,Subscription } from 'rxjs'; import { routes } from '../../assets/Pazintiniai_takai';
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss']
 })
-export class HomeComponent implements OnInit {
+export class HomeComponent implements OnInit, AfterViewInit {
   @ViewChild('map') map!: GoogleMap;
   public zoom = 10;
   public center: google.maps.LatLngLiteral = { lat: 54.9202826, lng: 23.9525806 };
@@ -16,8 +16,10 @@ export class HomeComponent implements OnInit {
     maxZoom: 15,
     minZoom: 8,
   }
-  public markers: any = [];
+  public markers$: BehaviorSubject<any> = new BehaviorSubject([]);
+  public visibleMarkers$: BehaviorSubject<any> = new BehaviorSubject([]);
 
+  private readonly subscription = new Subscription();
   constructor() { }
 
   public ngOnInit(): void {
@@ -27,19 +29,26 @@ export class HomeComponent implements OnInit {
         lng: position.coords.longitude,
       }
     });
+
     routes.forEach((route) => {
       this.addMarker(route);
     })
   }
 
+  public ngAfterViewInit(): void {
+    this.map.boundsChanged.pipe(debounceTime(500)).subscribe((map) => {
+      for(let i = 0; i < this.markers$.value.length; i++) {
+        const mark = new google.maps.LatLng(this.markers$.value[i].position.lat, this.markers$.value[i].position.lng)
+        this.markers$.value[i].visible = this.map.getBounds()?.contains(mark);
+        console.log(this.map.getBounds()?.contains(mark));
+      }
+      this.filterVisibleMarkers();
+    })
+  }
+
   // TODO change this one, but it works +-
   click(event: google.maps.MapMouseEvent) {
-    this.map.boundsChanged.pipe(debounceTime(100)).subscribe((map) => {
-      this.markers.forEach((marker: any) => {
-        const mark = new google.maps.LatLng(marker.position.lat, marker.position.lng)
-        console.log(this.map.getBounds()?.contains(mark));
-      });
-    })
+
   }
 
   public markerClick(event: any, index: number): void {
@@ -47,7 +56,7 @@ export class HomeComponent implements OnInit {
   }
 
   addMarker(route: any) {
-    this.markers.push({
+    this.markers$.value.push({
       position: {
         lat: route.coordinates[1],
         lng: route.coordinates[0],
@@ -58,6 +67,20 @@ export class HomeComponent implements OnInit {
       // },
       title: route.name,
       options: { animation: google.maps.Animation.DROP },
+      distance: route.distance,
+      time: route.time
     })
+  }
+
+  private filterVisibleMarkers(): void {
+    const visibleMarkers = [];
+    for(let i = 0; i < this.markers$.value.length; i++) {
+      const mark = this.markers$.value[i];
+      if (mark.visible) {
+        visibleMarkers.push(mark);
+      }
+    }
+    this.visibleMarkers$.next(visibleMarkers);
+    console.log(visibleMarkers);
   }
 }
