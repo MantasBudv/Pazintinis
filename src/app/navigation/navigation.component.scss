@@ -1,16 +1,33 @@
-p {
-  font-family: 'Permanent Marker', 'cursive';
+header {
+  position: relative;
+  font-size: 64px;
+  background: linear-gradient(0.25turn, #98d6f1, #f63c3c, #ebf8e1);
+  padding: 0 30px;
+  height: 100px;
+}
+
+h1 {
+  position: absolute;
   font-size: 64px;
   line-height: 100px;
+  color: white;
+  width: 100%;
   text-align: center;
-  background: linear-gradient(0.25turn, #98d6f1, #f63c3c, #ebf8e1);
+  z-index: 1;
+}
+
+span {
+  font-family: 'Permanent Marker', 'cursive';
+  text-align: center;
   color: #fff;
   text-shadow: 5px 5px #000;
   margin: 0;
 }
 
 a {
+  position: absolute;
+  line-height: 100px;
   text-decoration: none;
+  z-index: 5;
 }
-
 
