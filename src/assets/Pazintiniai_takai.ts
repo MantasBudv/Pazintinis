@@ -20,8 +20,8 @@ export const routes = [
       distance: [],
       time: [],
       coordinates: [
-          24.0180767,
-          54.8558054
+          23.5095807,
+          54.7472329
       ],
 
       description: "Prasidėjęs prie Girionių pažintinis takas vingiuoja Kauno marių pakrante iki Pakalniškių piliakalnio. Kalvomis, raguvomis ir griovomis takas į vieną pusę driekiasi apie 2,5 km. Maršrutas nėra žiedinis, o atgal galima grįžti šiek tiek kitu maršrutu, kuriame taip pat yra ką pamatyti. Gamta, paskendę kaimai, blindažas ir Pakalniškių piliakalnis - pagrindinės Pakalniškių pažintinio tako temos.",
@@ -39,12 +39,13 @@ export const routes = [
         { lng: 23.5095109, lat: 54.7469605 } ,
         { lng: 23.5094037, lat: 54.7467251 } ,
         { lng: 23.5092907, lat: 54.7464681 },
-        { lng: 23.5092746, lat: 54.7462514 } ,
+        { lng: 23.5092746,lat: 54.7462514 } ,
         { lng: 23.5092639, lat: 54.7460965 },
-        { lng: 23.5091942, lat: 54.7459541 },
-        { lng: 23.508985,  lat: 54.7457621 },
+        { lng: 23.5091942,lat: 54.7459541 },
+        { lng: 23.508985, lat: 54.7457621 },
         { lng: 23.5089152, lat: 54.7456011 },
         { lng: 23.5089152, lat: 54.7454618 },
+        { lng: 23.5089689, lat: 54.745353 },
         { lng: 23.5095429, lat: 54.7449354 },
         { lng: 23.5098486, lat: 54.7447775 },
         { lng: 23.5102992, lat: 54.7446567 },
@@ -95,7 +96,7 @@ export const routes = [
         { lng: 23.5079109, lat: 54.7473984 },
         { lng: 23.5088121, lat: 54.7474232 },
         { lng: 23.5094664, lat: 54.7474279 },
-        { lng: 23.5094664, lat: 54.7474279 }
+        { lng: 23.5094664, lat: 54.7474279}
       ]
     },
   {

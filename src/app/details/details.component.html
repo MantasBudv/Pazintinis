@@ -6,8 +6,10 @@
   [center]="center"
   [options]="options"
 >
-<map-polyline [path]="vertices" [options]="polylineOptions">
-</map-polyline>
+<ng-container *ngIf="routeItemPath$ | async as polyline">
+  <map-polyline [path]="polyline" [options]="polylineOptions">
+  </map-polyline>
+  </ng-container>
 <map-marker
 *ngFor="let marker of (markers$ | async); let index = index"
 [position]="marker.position"
