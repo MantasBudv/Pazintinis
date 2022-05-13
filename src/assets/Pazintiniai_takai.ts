@@ -1,7 +1,7 @@
 export const routes = [
   {
-      distance: null,
-      time: null,
+      distance: [],
+      time: [],
       coordinates: [
           24.2164636,
           55.5593452
@@ -16,8 +16,8 @@ export const routes = [
       ]
   },
   {
-      distance: null,
-      time: null,
+      distance: [],
+      time: [],
       coordinates: [
           24.0180767,
           54.8558054
@@ -35,8 +35,8 @@ export const routes = [
       ]
   },
   {
-      distance: null,
-      time: null,
+      distance: [],
+      time: [],
       coordinates: [
           24.087224,
           55.5226791
@@ -51,8 +51,8 @@ export const routes = [
       name: "Nevėžio upės slėnio pažintinis takas"
   },
   {
-      distance: null,
-      time: null,
+      distance: [],
+      time: [],
       coordinates: [
           24.1055596,
           55.5518812
@@ -68,8 +68,8 @@ export const routes = [
       name: "Pojūčių takas"
   },
   {
-      distance: null,
-      time: null,
+      distance: [],
+      time: [],
       coordinates: [
           24.1176671,
           55.5327353
@@ -85,8 +85,8 @@ export const routes = [
   name: "Girinio pažintinis takas"
 },
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       24.7076726,
       54.5860495
@@ -102,8 +102,8 @@ export const routes = [
   name: "Pažintinis turistinis maršrutas 'Protėvių takas'"
 },
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       24.701761,
       54.5881104
@@ -119,8 +119,8 @@ export const routes = [
   name: "Žaliasis takas"
 },
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       24.9510348,
       54.8332941
@@ -136,8 +136,8 @@ export const routes = [
   name: "Dūkštų ąžuolyno pažintinis takas"
 },
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       24.9464428,
       54.8268176
@@ -153,8 +153,8 @@ export const routes = [
   name: "Dūkštos pažintinis takas"
 },
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       24.9622464,
       54.8146591
@@ -170,8 +170,8 @@ export const routes = [
   name: "Karmazinų pažintinis takas"
 },
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       25.0451696,
       54.7310449
@@ -187,8 +187,8 @@ export const routes = [
   name: "Šilėnų pažintinis takas"
 },
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       23.1739426,
       55.076107
@@ -204,8 +204,8 @@ export const routes = [
   name: "Plokščių pažintinis takas"
 },
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       23.5077918,
       54.9945364
@@ -220,8 +220,8 @@ export const routes = [
   name: "Lekėčių pažintinis takas"
 },
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       24.5525444,
       54.2125372
@@ -236,8 +236,8 @@ export const routes = [
   name: "Žiežulio pėsčiųjų takas"
 },
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       24.840796,
       54.3519294
@@ -253,8 +253,8 @@ export const routes = [
   name: "Pažintinis takas 'Žodis girios draugui'"
 },
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       26.2034225,
       55.1936355
@@ -270,8 +270,8 @@ export const routes = [
   name: "Mitologinis pažintinis takas"
 },
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       25.8604217,
       55.644044
@@ -286,8 +286,8 @@ export const routes = [
   name: "Šavašos pažintinis takas"
 },
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       25.8231497,
       55.2637495
@@ -302,8 +302,8 @@ export const routes = [
   name: "Labanoro girios pažintinis takas"
 },
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       25.3947151,
       54.6900691
@@ -319,8 +319,8 @@ export const routes = [
   name: "Strielčiukų žygtakis"
 },
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       24.179256,
       54.8147456
@@ -336,8 +336,8 @@ export const routes = [
   name: "Arlaviškių pažintinis takas"
 },
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       25.270164,
       54.4833157
@@ -353,8 +353,8 @@ export const routes = [
   name: "Miško turtų pažintinis takas"
 },
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       25.4456341,
       55.0580758
@@ -370,8 +370,8 @@ export const routes = [
   name: "Dubingių piliavietės pažintinis takas"
 },
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       25.4916072,
       55.0510024
@@ -385,8 +385,8 @@ export const routes = [
   name: "Gurakalnės pelkės pažintinis takas"
 },
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       25.4132921,
       55.0712698
@@ -402,8 +402,8 @@ export const routes = [
   name: "Jurkiškio upelio pažintinis takas"
 },
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       24.9647677,
       54.6477731
@@ -419,8 +419,8 @@ export const routes = [
   name: "Varnikų pažintinis takas"
 },
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       21.1256468,
       55.554163
@@ -435,8 +435,8 @@ export const routes = [
   name: "Pažintinis dendrologinis takas"
 },
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       25.0433457,
       54.7200411
@@ -452,8 +452,8 @@ export const routes = [
   name: "Seidės pažintinis takas"
 },
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       24.8301744,
       54.887173
@@ -469,8 +469,8 @@ export const routes = [
   name: "Kernavės turistinis-poilsinis takas"
 },
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       25.3291887,
       54.7004084
@@ -486,8 +486,8 @@ export const routes = [
   name: "Sapieginės pažintinis takas"
 },
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       25.3537041,
       54.6927697
@@ -503,8 +503,8 @@ export const routes = [
   name: "Pūčkorių pažintinis istorinis takas"
 },
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       25.3172636,
       54.6507341
@@ -520,8 +520,8 @@ export const routes = [
   name: "Ribiškių pėsčiųjų trasa"
 },
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       24.2867911,
       53.9971307
@@ -537,8 +537,8 @@ export const routes = [
   name: "Skroblaus pažintinis takas"
 },
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       24.3978453,
       54.0612015
@@ -548,8 +548,8 @@ export const routes = [
   name: "Zackagirio pažintinis takas"
 },
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       24.4287819,
       54.0212925
@@ -559,8 +559,8 @@ export const routes = [
   name: "Čepkelių mokomasis takas"
 },
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       24.4371128,
       53.9627514
@@ -576,8 +576,8 @@ export const routes = [
   name: "Drevinės bitininkystės pažintinis takas"
 },
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       24.187088,
       54.1705741
@@ -587,8 +587,8 @@ export const routes = [
   name: "Pažintinis Ilgabalės takas"
 },
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       21.8273342,
       56.0485182
@@ -604,8 +604,8 @@ export const routes = [
   name: "Šeirės pažintinis takas"
 },
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       21.8158972,
       56.0389898
@@ -615,8 +615,8 @@ export const routes = [
   name: "Giliuko ir Kaštoniuko takas"
 },
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       21.9057191,
       56.0301605
@@ -632,8 +632,8 @@ export const routes = [
   name: "Plokštinės takas"
 },
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       21.8856132,
       56.0469663
@@ -649,8 +649,8 @@ export const routes = [
   name: "Paplatėlės takas"
 },
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       21.8253493,
       56.1274891
@@ -666,8 +666,8 @@ export const routes = [
   name: "Mikytų alkakalnio takas"
 },
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       21.9962597,
       56.1292292
@@ -677,8 +677,8 @@ export const routes = [
   name: "Gardų ozo takas"
 },
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       21.9331527,
       56.0911813
@@ -688,8 +688,8 @@ export const routes = [
   name: "Gergėnų piliakalnių takas"
 },
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       21.936543,
       56.1234526
@@ -699,8 +699,8 @@ export const routes = [
   name: "Poeto V. Mačernio gimtinės takas"
 },
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       24.0789735,
       54.856738
@@ -716,8 +716,8 @@ export const routes = [
   name: "Dubravos rezervatinės apyrubės pažintinis takas"
 },
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       24.076463,
       54.8893143
@@ -733,8 +733,8 @@ export const routes = [
   name: "Žiegždrių geologinis takas"
 },
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       23.7076807,
       54.0899435
@@ -750,8 +750,8 @@ export const routes = [
   name: "Pėsčiųjų takas Ančios ežero pakrante"
 },
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       21.3561559,
       55.3905318
@@ -767,8 +767,8 @@ export const routes = [
   name: "Aukštumalos pažintinis takas"
 },
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       21.353817,
       55.3556967
@@ -778,8 +778,8 @@ export const routes = [
   name: "Tulkiaragės pažintinis takas"
 },
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       21.4343905,
       55.3148114
@@ -795,8 +795,8 @@ export const routes = [
   name: "Žalgirių pažintinis takas"
 },
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       20.9972656,
       55.2975706
@@ -813,8 +813,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       21.0721421,
       55.4417837
@@ -831,8 +831,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       22.921772,
       55.8164503
@@ -849,8 +849,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       22.9247332,
       55.4274062
@@ -867,8 +867,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       22.3587656,
       55.8742756
@@ -885,8 +885,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       22.763865,
       54.4075793
@@ -903,8 +903,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       22.9810166,
       55.0783979
@@ -921,8 +921,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       23.8760753,
       55.8978358
@@ -939,8 +939,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       26.1389852,
       55.1188825
@@ -957,8 +957,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       25.2117777,
       55.719267
@@ -975,8 +975,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       25.8228493,
       55.7739421
@@ -993,8 +993,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       25.7878733,
       55.7910281
@@ -1011,8 +1011,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       25.8749485,
       55.778166
@@ -1029,8 +1029,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       23.192246,
       55.6883993
@@ -1046,8 +1046,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       22.993741,
       55.804091
@@ -1064,8 +1064,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       23.1919992,
       55.6101961
@@ -1081,8 +1081,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       26.1341357,
       55.5799154
@@ -1099,8 +1099,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       26.0543131,
       55.6544354
@@ -1116,8 +1116,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       21.0674,
       55.7989773
@@ -1134,8 +1134,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       21.5398764,
       55.9514705
@@ -1152,8 +1152,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       21.5647459,
       56.1530079
@@ -1164,8 +1164,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       21.5896261,
       56.1265084
@@ -1182,8 +1182,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       22.4051142,
       55.7692348
@@ -1194,8 +1194,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       22.3511481,
       55.7384791
@@ -1206,8 +1206,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       22.2908842,
       55.6363903
@@ -1224,8 +1224,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       22.1165084,
       55.0541367
@@ -1242,8 +1242,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       23.3271933,
       55.9300796
@@ -1254,8 +1254,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       22.1844219,
       55.3820118
@@ -1272,8 +1272,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       22.1661186,
       55.3247498
@@ -1290,8 +1290,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       23.4186459,
       54.4396502
@@ -1307,8 +1307,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       23.6391878,
       54.4571794
@@ -1325,8 +1325,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       23.6613321,
       54.298696
@@ -1343,8 +1343,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       23.7414927,
       54.2839583
@@ -1361,8 +1361,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       24.0397703,
       54.3847437
@@ -1378,8 +1378,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       25.660876,
       54.1791083
@@ -1395,8 +1395,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       22.4713326,
       55.1770052
@@ -1407,8 +1407,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       23.5096049,
       54.7473469
@@ -1425,8 +1425,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       25.0606567,
       55.4855836
@@ -1443,8 +1443,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       25.0820339,
       55.5116119
@@ -1461,8 +1461,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       22.9551709,
       55.0897003
@@ -1478,8 +1478,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       24.6929687,
       56.2100247
@@ -1495,8 +1495,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       24.7536295,
       56.2669195
@@ -1512,8 +1512,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       23.262949,
       56.2200685
@@ -1530,8 +1530,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       24.8735565,
       55.5755153
@@ -1547,8 +1547,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       23.2282948,
       56.3559309
@@ -1565,8 +1565,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       21.2269271,
       55.3830967
@@ -1583,8 +1583,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       22.1620202,
       55.9828325
@@ -1601,8 +1601,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       23.2135534,
       55.5309137
@@ -1613,8 +1613,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       24.514119,
       54.6110441
@@ -1631,8 +1631,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       22.1900412,
       55.7422207
@@ -1649,8 +1649,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       25.5791115,
       55.4609281
@@ -1666,8 +1666,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       25.9598351,
       55.6537423
@@ -1682,8 +1682,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       24.9787688,
       55.8556122
@@ -1694,8 +1694,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       21.2482882,
       55.5373314
@@ -1706,8 +1706,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       25.8420324,
       55.1649217
@@ -1724,8 +1724,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       22.2218871,
       55.1696893
@@ -1736,8 +1736,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       23.1096017,
       55.4588204
@@ -1753,8 +1753,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       24.0085173,
       54.3802699
@@ -1771,8 +1771,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       22.2239256,
       55.3560871
@@ -1789,8 +1789,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       23.6378145,
       54.1235451
@@ -1807,8 +1807,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       22.3404193,
       55.7259984
@@ -1825,8 +1825,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       22.7829409,
       56.1434933
@@ -1843,8 +1843,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       22.3863816,
       55.0730112
@@ -1861,8 +1861,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       23.243267,
       55.4016148
@@ -1878,8 +1878,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       24.1550517,
       54.8739091
@@ -1896,8 +1896,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       23.5610819,
       55.229537
@@ -1914,8 +1914,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       26.1056305,
       55.331767
@@ -1932,8 +1932,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       22.663486,
       56.3138114
@@ -1944,8 +1944,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       24.8685193,
       54.8393185
@@ -1962,8 +1962,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       24.555908,
       54.5831257
@@ -1980,8 +1980,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       25.0534299,
       55.4757494
@@ -1998,8 +1998,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       21.0612659,
       55.8694606
@@ -2015,8 +2015,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       23.5285577,
       54.5106325
@@ -2032,8 +2032,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       23.9375103,
       54.8439254
@@ -2050,8 +2050,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       24.6924986,
       54.5846491
@@ -2068,8 +2068,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       22.2333819,
       55.3902068
@@ -2086,8 +2086,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       23.7541725,
       54.2310423
@@ -2104,8 +2104,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       21.7817333,
       56.0336333
@@ -2122,8 +2122,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       21.1107109,
       55.7078408
@@ -2134,8 +2134,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       23.5935603,
       54.3336154
@@ -2146,8 +2146,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       23.2524496,
       55.426589
@@ -2164,8 +2164,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       26.2600378,
       55.2263194
@@ -2182,8 +2182,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       22.9424398,
       55.8402187
@@ -2194,8 +2194,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       23.048617,
       55.8277797
@@ -2212,8 +2212,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       23.0283222,
       55.7995783
@@ -2224,8 +2224,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       23.1038304,
       55.7978075
@@ -2236,8 +2236,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       25.9770296,
       55.6292948
@@ -2254,8 +2254,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       25.3195583,
       54.7505361
@@ -2272,8 +2272,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       25.404994,
       54.6871924
@@ -2290,8 +2290,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       25.3566499,
       54.6853313
@@ -2308,8 +2308,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       23.4194867,
       55.0827717
@@ -2320,8 +2320,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       24.2138084,
       54.8592687
@@ -2332,8 +2332,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       21.3094408,
       55.3162898
@@ -2344,8 +2344,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       25.7069114,
       55.2636771
@@ -2356,8 +2356,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       25.6322642,
       55.2085676
@@ -2368,8 +2368,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       22.0327746,
       55.0867889
@@ -2380,8 +2380,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       25.9867516,
       55.1714366
@@ -2392,8 +2392,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       25.3005899,
       54.6869504
@@ -2410,8 +2410,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       23.1265529,
       55.848667
@@ -2422,8 +2422,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       22.9778375,
       55.7560375
@@ -2434,8 +2434,8 @@ export const routes = [
 },
 
 {
-  distance: null,
-  time: null,
+  distance: [],
+  time: [],
   coordinates: [
       22.9699175,
       55.8080666
@@ -2444,5 +2444,818 @@ export const routes = [
   description: "Pustlaukio duobių takas",
   name: "Pustlaukio duobių takas"
 },
+{
+  distance: [
+      "0,5 km"
+  ],
+  time: [
+      "0,5 h"
+  ],
+  coordinates: [
+      25.412328,
+      54.822187
+  ],
+  description: "Nemenčinės miškuose prie Sakiškių yra įrengti 7 takai/parkeliai. Jų ilgiai svyruoja nuo 400 iki 800 metrų, dauguma padengti medinių lentelių danga. Juose įrengtos poilsiavietės, pastatytos medinės skulptūros, kai kur yra vaikų žaidimo aikštelės. Tikslios jų koordinatės nurodytos tinklaraštyje: https://nesedeknamuose.lt/pazintiniai-takai/sakiskiu-takai-ir-parkeliai/ http://nesedeknamuose.lt/kodel-europos-investicijos-slepiasi-lietuvos-miskuose/",
+  images: [
+      "https://lh3.googleusercontent.com/umsh/AFiHsUHwwM2orho4O4h_kSwywnJy6CDoX2GoU4bRrVdT8AxaLzPE3Xbw1uyjPAIyRR-ojPYwfFQZ6cB6nQhc59zyQ0ZKgiLimje1FaTW79phT9DNxy29BsojMPo_3Yatm47mS_4J_drwK0waVhCu4Vo3JjSjR34L1nHdnKeZgcz-bPDGr9z47DpUdUVt9HRsa-6x7iA6thn3XkRF1DaWm_16uNLZXN0gND4hRauy7saH4yj_raVzTzE36oOi4qgmeTVbIgs9krkyEf5tHp1kEA",
+      "https://lh3.googleusercontent.com/umsh/AFiHsUExlegbtQd27LjRsgXoncM_gEbZgdyM5MkU7yHAQzcOxsilgANWnkepDqgLBerjTfGpn9DoH9qbXPv3Jmf3saWp8dFP580f0giuVx0t3trUEyH5x78pLuont8Sz46y0KHZcVj2V7yr23QpnB2YqNOeLWCOJA5ua7h9S-Wgdsb95LhraDJ4G1__J0u4WZm0sfnjeWKpOOUUgqoWPcvRs-O-8AHzNsrSw95qhPQMb6wlqcGVI7QYFhFHcFXQ5s3AAJ5pnAxKkKoPH3UUVSA",
 
+  ],
+  name: "Sakiškių poilsiavietė"
+
+},
+{
+  distance: [
+      "6 km",
+      "8 km",
+      "12 km"
+  ],
+  time: [
+      "2 h",
+      "3 h",
+      "6 h",
+  ],
+  coordinates: [
+      24.016752,
+      54.02352
+  ],
+  description: "Po Druskininkų apylinkių pušynus vedžioja prie Eglės sanatorijos prasidėjęs Žilvino takas. Galima rinktis trijų ilgių trasas, kurių ilgiausia - 3,8 kilometro. Maršrutas žiedinis. Plačiau apie taką skaitykite tinklaraštyje:  http://nesedeknamuose.lt/zilvino-takas-nemokama-gryno-oro-procedura/",
+  images: [
+      "https://lh3.googleusercontent.com/umsh/AFiHsUFbZDIL_Htu4TnDMS4zdreskn_RCY3oY9yVLFJ4CwINmWsbp-a-OoFSIWZ1zelkudBRABdwj-oJpMlEn9mZxmohhz0_qtpejC8H_GAQrBtS4inMmi6zy0V8SZ97PE-mhTkRpQ0fk8_Q_rJTVGz7VZhRGI2kadeahzyoU2rYJPeFzlVd9dEuc55jBJkQcOQqXARtxL05TCIo9tHvKFtM5iT-OXn5oU-NvVQ0F3eaeNbhEZjWGQTWHOy9UnkXhb-JdQMcC7QJWP3Paw",
+      "https://lh3.googleusercontent.com/umsh/AFiHsUGrRmwRFmxfziEfhlAC8qdCjsa2EV1QXUSr0AFw_rV2ULtBT4skV0rZR5D5fgy0FCTRxJiBGWmqaZbJ6sUQeQCJziOMiIOdqZgK28d373UuNyjFf6z20esA_x5p7b2Fezc44c3k7iiELjQJygokYZR-QWZTh6Xt1pv9IfQHjHhG40cuKDUUPZUA34HjX1H-oi_XbF33WrIJ5rJFPpvPml-fmZBVLuA41Lz6PdMHvzjB5dd33Gx_ZGupHMd0OyzEQGVwCsby3XlyTcc",
+      "https://lh3.googleusercontent.com/umsh/AFiHsUHA8hQmxBPm85WgwTVqHLpNbTFuU-wmac2Alr2_WJt7LJ5U7rNO7vKeMMoEt3_rwAw1-ZGvP255UvuZx79XRz3ZFBTXVEckIs8z6myrzVZez9wKWzyLHmoOmCopoq6ll-NUm6b7Ih5OeLbTo3_oBy7XNBDWe5eoSr9EBwQicRHfc0eKaDn_fgsKlRn71KrPHJqKE7pLfkD3J3OrJp2vIZV3xUve-FthmwwI6qBZ4-UyWtoBDuw1SmtTLJMvux1S699UlKVSRT-2i1rx",
+
+  ],
+  name: "Žilvino takas"
+
+},
+{
+  distance: [
+      "1,5 km"
+  ],
+  time: [
+      "1,5 h"
+  ],
+  coordinates: [
+      23.239253,
+      55.410427
+  ],
+  description: "Prie kelio link Padubysio piliakalnio įrengtas Kaukų takas. Didžioji tako dalis - betonas, take yra medžio skulptūrų ir pavėsinių. Maršrutas nėra žiedinis, tako ilgis apie 700 metų. Plačiau apie taką skaitykite tinklaraštyje: http://nesedeknamuose.lt/ne-viskas-auksu-ziba-kas-maironio-apdainuota/",
+  images: [
+      "https://lh3.googleusercontent.com/umsh/AFiHsUGBMSQYZYy7DWlmoHP3NfJ56DfGMLV_hYq77z700os9OzTERZlUKWNqX6XoKzogH6b-yUlN7QWIYBu7n_--ekUZFQP9qDncAJrpGVoDFcDfarw4qKGkWc_1AL_LgBnqB9Qxy6s4HX3jmDv7AmQnQM4TrqoPJ2wfjgvwQfyYag8JyTEGyIjKiNeNRBSb2OTFMcgDWoguo7f1yD2d-Jw50D78IvTDGUFjWmdYEGs682YzWvKhgYlzHToH5h928KzqVeg2H0cvLjEX8dLlqg",
+      "https://lh3.googleusercontent.com/umsh/AFiHsUFJ6QdJuI-EXd3Q1tPZ5Y5WmCgcHZcADxg5PCqEfspB4nHCNuhnBE18_OwxgD687uZDNJj7K9qlDZ_i-urbFefAHh7W1XGcxebj6vIYhyVHZMoy8z2WV-H9ug0lHUbb3h3SXQAqryJTps7Re7fSGs4esD-8AG0M8odxxefphvQHCfxqDiBbEGBw-zFJhXopt4qZa9j-BDYJtno1aFd9LMi59-IpLvAW5yvkWJBGBYNy-IMnu009qVJwH0ef6iiqMzXwhgrIwzfeSAs4aA",
+      "https://lh3.googleusercontent.com/umsh/AFiHsUGwYEug40Lz5YLx1xImQcmqOxSNjnZWQfS_R3Ig-LSp8IgIIYr563XV8YGsLCJmpgwBHPBvR6cKeiagfnu9-vLgFJl1QkTu8Zh3_0c-YHzFbOPxRgZnxVgG2DdQHU0SZPONwHLCEzmPXVLhkkbOXdylzIh48f0GJCULpkyZV9d9XgnUzzrojfFwmhVbYZuBiRPtuxaJN4RnH0AqEzw8YVlYzOghgOZ6D38BW-WHPIuGuZ6sNU2hdgeAuxi3DTMTzDyHGLbR1AyWxVO0PQ",
+
+  ],
+  name: "Kaukų takas"
+
+},
+{
+  distance: [
+      "1 km"
+  ],
+  time: [
+      "0.3 h"
+  ],
+  coordinates: [
+      25.6508,
+      55.055408
+  ],
+  description: "Galono ežero pakrantėje įrengti 2 medinių lentelių takai, kuriais vaikštant galima pasigrožėti 74 čia stovinčiomis medinėmis skulptūromis. Bendras žiedinės formos takų ilgis nesiekia kilometro, o jais vaikštant galima pamatyti Galono ežerą ir pelkėtą daubą. Plačiau apie taką skaitykite tinklaraštyje: http://nesedeknamuose.lt/kas-10-metru-po-skulptura-rekordu-knygos-verta-vieta-prie-galono-ezero/",
+  images: [
+      "https://doc-08-ag-mymaps.googleusercontent.com/untrusted/hostedimage/ihucu48q9m5s1hftel5u85tfdc/f5qi881e0soi7r871o4ucmqhlo/1652418900000/-WPmm_dsOCr8C_2Ftfdhs7CzXYdOD0wc/*/6AIsG_vZVF2VLxbfgkVEoxc_xtWEAE1pKbbNtL-rO2DDHJ5Z6WXVRkwhdyBXPO6y4Tj-_mYRMRtiHuOOLBH1WLTmo1dwLhXg_a1qaCaCEhNy7bOztqHu3sXtmXWPuLxSXeQc3r--YqNFLyQ72WRfmWSe9-gWaZSEKadf3qXPGN9s4iF5jN2lvfb08OFymIDUGvw?session=0&fife",
+      "https://doc-14-ag-mymaps.googleusercontent.com/untrusted/hostedimage/ihucu48q9m5s1hftel5u85tfdc/02dqqpfaocu0usst9k47orduqs/1652418900000/-WPmm_dsOCr8C_2Ftfdhs7CzXYdOD0wc/*/6AIsG_vblunHcfhYn4sLVw1HHCqj_5NQgDEbT6tOGttif7-VCtG6LEZf8oZrq7Iunyb4bdaNviU3VWjrkNH1EixgmIwJWM5p2jPWDHgHRM3pMzztLQyw8W7_tKxHnLDqI9ywgaGipNiTRvCKghiC5bMbBkt18-L3Fq4ZekzvSJdJuTfRyQCyMUUVXMoIc4ZR3FA?session=0&fife",
+      "https://doc-0o-ag-mymaps.googleusercontent.com/untrusted/hostedimage/ihucu48q9m5s1hftel5u85tfdc/66dd85gi3lhuknpp24fkgq0lec/1652418900000/-WPmm_dsOCr8C_2Ftfdhs7CzXYdOD0wc/*/6AIsG_vbFEHyAssn_as39jYGdPdLHb24jYfuG1QAs_dZdXLhlLplJi4VVB2GpTQYrlm-JRGtaBMv6h928CpkKM7yeAfeUdrFUIK9SnhLZ4VunFi5wkjzYvDXb0e7FQbtM3whKNu8DuK-zuNyLmkrVlRlF68aoXbiz5vBGpDRJYmBfPVeodjoc-OgUWOANbQkFHA?session=0&fife",
+      "https://doc-14-ag-mymaps.googleusercontent.com/untrusted/hostedimage/ihucu48q9m5s1hftel5u85tfdc/79vgtmor2p676jj02a8bsckg6g/1652418900000/-WPmm_dsOCr8C_2Ftfdhs7CzXYdOD0wc/*/6AIsG_vZdl1RzlZ_qdOWWXg1MDm_V-6yKIKalXHu8OXA4mmJlszWzC_j7VWZQ8PBj4QLyxq0qe0EB_I95eC38GfXhXAbxs6ydnah39zVcEsNf5NvrZOvmZIOicExpSUjMnfhWW1LyAOlQ7XrCIgQznvarpaawT54ID7RJ0qj7VGpRaPvWKQSlXsIhgwfSpdx9XA?session=0&fife",
+
+  ],
+  name: "Šarkiškių skulptūrų takas"
+
+},
+{
+  distance: [
+      "6 km",
+      "10 km"
+  ],
+  time: [
+      "2 h",
+      "3 h"
+  ],
+  coordinates: [
+      25.620889,
+      54.262818
+  ],
+  description: "Dieveniškių regioninio parko pėsčiųjų maršutai prasideda Poškonyse prie Dieveniškių regioninio parko lankytojų centro ir driekiasi iki Grybiškių ąžuolo. Nuo ten maršrutas P1 grįžta atgal kita Poškonių užtvankos puse, o P2 pro Rimašių akmenyną ir pačius Rimačius daro didesnį lanką. Maršruto P1 ilgis - 6km, P2 - 10km. Abu maršrutai yra žiediniai. Plačiau apie maršrutą skaitykite tinklaraštyje: https://nesedeknamuose.lt/pazintiniai-takai/grybiskiu-azuolo-pesciuju-marsrutas/ https: //nesedeknamuose.lt/grybiskiu-azuolo-pesciuju-marsrutas-su-viena-neiminta-misle/",
+      images: [
+          "https://doc-0g-ag-mymaps.googleusercontent.com/untrusted/hostedimage/ihucu48q9m5s1hftel5u85tfdc/31h0aeau8grnkaulcqnq8i9qh8/1652418900000/-WPmm_dsOCr8C_2Ftfdhs7CzXYdOD0wc/*/6AIsG_vYR_ApKV7GW2Om80SLXukCtY9Q4HS1G9nfxIjIza2qAu7GF8NCvB95YG6FiKQmaFWVpMV2AmG3IxGqffd2Eh4j_m0Zfiwn2hvs8g5Iyb8sZKkDhuF2bzQRz3zSUAEOqIuiSDYgWayBKkkdFy1-sicOUcrzc9_GBoRsVADi-zAR2UaqDepwVkdAFWLjZTA?session=0&fife",
+          "https://doc-0k-ag-mymaps.googleusercontent.com/untrusted/hostedimage/ihucu48q9m5s1hftel5u85tfdc/4drrfbi0coscc0jggpm2sjr964/1652418900000/-WPmm_dsOCr8C_2Ftfdhs7CzXYdOD0wc/*/6AIsG_vYYcaNM1xh80Qeu2O2_D2Dn3GlpkKfxBqYiKl4wYtz31PblgM4ChNUxuN22mvboy59e1bJJW734Ef1GcF1wnFxzjH667i3tNKaN_dAR4cXgDclIE8_GR9ys_Sr1djGfCiUbGQPWtsg0ercF5CLVV85FR9xnhXbG11ADWN6lmOVeIny6e9Ii16XWJ9Eg6w?session=0&fife",
+          "https://doc-08-ag-mymaps.googleusercontent.com/untrusted/hostedimage/ihucu48q9m5s1hftel5u85tfdc/6ta7itq8usms50p56arrph5qv0/1652418900000/-WPmm_dsOCr8C_2Ftfdhs7CzXYdOD0wc/*/6AIsG_vZ9E8o41v1D0unE2lOIAVv6yz-VB0U0TsLczb59NtyvMAon7FoROxpm545sO5OACedu7TpV7yD0lXVqIt-pyG_vDh6qmrd2qWfC2zTQxvxqT7gzdoVBEnm2PAckmOiu8YdBkCsl-wMcC6EQ5ieEddJuquBFVdbe3trZLX11XUiGku7u4GBBeGqdzBGkDg?session=0&fife",
+          "https://doc-0s-ag-mymaps.googleusercontent.com/untrusted/hostedimage/ihucu48q9m5s1hftel5u85tfdc/nj0drivg8ghldcnbvgbbsba2pk/1652418900000/-WPmm_dsOCr8C_2Ftfdhs7CzXYdOD0wc/*/6AIsG_vZFdiUKFFvx15jNGRIWnL1OsX2fD9KkF6phJNhEtYLzuwYSD9PJLc-ObB8lMu6CMXaBCEQhvJbCFwucaJ9VBHAnocUX4rNryF2bKroRmL8VAqdwZQaD5jYLJ_D16weHO3eB2d6SX_sc9SMfl3N2BJZ2_ovXeLHbSE18S980vX8SEJ-k2FGQLR-vdU7bpg?session=0&fife",
+
+      ],
+  name: "Dieveniškių regioninio parko pėsčiųjų maršrutai P1 ir P2"
+
+},
+{
+  distance: [
+      "0,3 km"
+  ],
+  time: [
+      "0.5 h"
+  ],
+  coordinates: [
+      24.0511372,
+      54.5972797
+  ],
+  description: "Atminties takas tai skulptūrų ansamblis, skirtas atminti žuvusiems tremtyje ir kovoje prieš okupantus. 1988 metais įrengtas takas yra vos 300 metrų ilgio, o juo einant galima pamatyti 11 tautodailininkų išdrožinėtas medines skulptūras. Plačiau apie taką skaitykite tinklaraštyje: https://nesedeknamuose.lt/pazintiniai-takai/atminties-takas/ https://nesedeknamuose.lt/300-metru-rimties-ir-atminties/",
+  images: [
+      "https://doc-0k-ag-mymaps.googleusercontent.com/untrusted/hostedimage/ihucu48q9m5s1hftel5u85tfdc/6fgjdopn9cr01ot7dsv068jr38/1652418900000/-WPmm_dsOCr8C_2Ftfdhs7CzXYdOD0wc/*/6AIsG_vYWuAR2llVvs7_3AH_mmkrcUwx34KH8GpdHZM0uAZzRkZVIQCgFOSonyWu5QppFbVkd2vIgnVDWmKP9AZeHwGT0QgE_CAxAvDb0Zb4HEuv5MFV6uSMBNXGDCktN7ivVoqgKDVkgnToImsQqNrERfhk93HrkHTu2wSTD0_4lkG-WVTBZksoIVmLatAGt8A?session=0&fife",
+      "https://doc-08-ag-mymaps.googleusercontent.com/untrusted/hostedimage/ihucu48q9m5s1hftel5u85tfdc/o8bn18sq6trtp8ngu95u66mglg/1652418900000/-WPmm_dsOCr8C_2Ftfdhs7CzXYdOD0wc/*/6AIsG_vad_mcjszVwSKN0pxvgL0-ieW5Mo2YlzriXnBqzkib8L8IRj-NVC_vh7xWu0rE5o1q-qHhWzLJu9uB3dnoqpjrDc6fEXDXoUDrQMnnh3yDy_Ktl-ub72BGjRzeT89z3pMIaFbDZtKOccl2dx_p_awqWG4LWkr7IFnW93o8naRLGoFXvMlWfCktXxpr7Cg?session=0&fife",
+      "https://doc-0s-ag-mymaps.googleusercontent.com/untrusted/hostedimage/ihucu48q9m5s1hftel5u85tfdc/kavmvfapgpot9aak7p4rivv3p8/1652418900000/-WPmm_dsOCr8C_2Ftfdhs7CzXYdOD0wc/*/6AIsG_vb0ODJ5S_j4GMJ4nA8Pwe-Zmi2PiFjOMUCKPlTtSIwOxIL-jSCa7od_QCBUjeN79cGUFBG0zFzat2JMyJg7HwelA-PC5TZi00pti5Fh_3FepN2hFJkt3wTqK0OS9TpDNZ7bNNMdgI8J-boj0ptQbhgWgyjfqVxDWHdSfDnpuxlTpGMEWv29aZuOFOqm8w?session=0&fife",
+      "https://doc-08-ag-mymaps.googleusercontent.com/untrusted/hostedimage/ihucu48q9m5s1hftel5u85tfdc/ihspgetqpkkcuiovi03ni69sns/1652418900000/-WPmm_dsOCr8C_2Ftfdhs7CzXYdOD0wc/*/6AIsG_vY8SuPHw1EIf5n-smcx9G7GyVd3Ez3cXZdtXCKRtr9hq5qXiGGDJANDjx-v-wnwH-WBEsHyMuZ_hLLEYrVn5SKrK2v8sOoutu-fnmeqm5-6ICKuVR48Izt9wYjpVvieIGz8SJmxM_EtXp_I0BLg3DFL6fzW2QEOxlHl7QEasdK4mv2HvPTrTb29A_TWng?session=0&fife",
+
+  ],
+  name: "Atminties takas"
+
+},
+{
+  distance: [
+      "5,8 km"
+  ],
+  time: [
+      "3 h"
+  ],
+  coordinates: [
+      24.0165726,
+      54.6130641
+  ],
+  description: "Žvėrinčiaus miške dar 1968 metais buvo įrengtas Žvėrinčiaus miško takas. Dabar jis asfaltuotas pėsčiųjų-dviračių maršrutas, kurio ilgis beveik 6km. Prasideda netoli Vytautas Mineral SPA, o baigiasi Prienų pakrašty. Maršrutas ne žiedinis. Plačiau apie taką skaitykite tinklaraštyje: https://nesedeknamuose.lt/pazintiniai-takai/zverinciaus-misko-takas/ https://nesedeknamuose.lt/zverincius-nemuno-kilpu-bijoti-nereikia/",
+  images: [
+      "https://doc-0k-ag-mymaps.googleusercontent.com/untrusted/hostedimage/ihucu48q9m5s1hftel5u85tfdc/7l0romlijvfjak3503jouvsat4/1652418900000/-WPmm_dsOCr8C_2Ftfdhs7CzXYdOD0wc/*/6AIsG_vYtMnAgq0TUvhqZHg70Rn6m8lv3RxuZhX7Q2FauzePxdZv3wDnQq6181c3VyX_iMPoGnQMw7QcqIwnovwP4TXCyYysEJrTCsnfRHfGGFda85248ncJEPJI2Opz25DAmZxy3SedSPN6jvWcKo1S8tyaLYNNzWHdiD6dc9oh6GWd3WJxVefCsewnNLOeabQ?session=0&fife",
+      "https://doc-10-ag-mymaps.googleusercontent.com/untrusted/hostedimage/ihucu48q9m5s1hftel5u85tfdc/lj3k1lj156koq91l7se2f3a8c0/1652418900000/-WPmm_dsOCr8C_2Ftfdhs7CzXYdOD0wc/*/6AIsG_vYPUXO_cjfkKVIQVWh1TyVfGGF1vG50xVtQ-k3f8XtiaJZGEuotu5q_FG1xvkI-2qMqKwKyl37GDLwZ_DvTK2XR4xXUcHOIUXzghlsjXrReK_G9ADpEe1apNz0NWBfD9h4VW9myjOyhywKef707ApiGTPOz0dOCSQUvVVEg4kkX-mnbGnr-NINQ7QqeWg?session=0&fife",
+      "https://doc-0k-ag-mymaps.googleusercontent.com/untrusted/hostedimage/ihucu48q9m5s1hftel5u85tfdc/d55s3emmdlmegjjuchsh56o0sg/1652418900000/-WPmm_dsOCr8C_2Ftfdhs7CzXYdOD0wc/*/6AIsG_vZrIq3KXyajDnvAeqlrUYBKfJHiDyewxytvzfNvUDRhyquqOoAiBoGO3jqB8nWkZO-5peic3SefhmdVagDmQsvZbqxpNdZg_GJQOUsDPE3jwY7g-gMLyN1f2AXWP5ciG0gcA06hU3d4cOxTP4kgqvFL0i1-C0tBaQHL9M-Zgww3skrDpwgDd7ozkSwKtg?session=0&fife",
+      "https://doc-08-ag-mymaps.googleusercontent.com/untrusted/hostedimage/ihucu48q9m5s1hftel5u85tfdc/ii3mhbp4dnjub34se3nrvvc4bk/1652418900000/-WPmm_dsOCr8C_2Ftfdhs7CzXYdOD0wc/*/6AIsG_vbO_MY7AKk52RvlLr_ET68u3KTPir0weTAXVBSV88CbhFrZxKlxRY3t0bsUNQBjXkm0BQJIZ_o1PgS_cnsm9t5uWosnvXMggWaqgBbh3YvM_IO75Dm5iRTsyFXPq5hJww2IbujU19YMiuGVBzAvwRPcEDIAWZmwKVJiLOoh-gZ61Aqd_YDvjcxCenVxXQ?session=0&fife",
+
+  ],
+  name: "Žvėrinčiaus miško takas"
+
+},
+{
+  distance: [
+      "1,1 km"
+  ],
+  time: [
+      "1 h"
+  ],
+  coordinates: [
+      26.275185,
+      55.756461
+  ],
+  description: "Balto ežero krante įrengtas skulptūrų parkas, kuriame išvedžioti medinių lentelių takai, įrengtos pavėsinės, tačiau priėjimo prie ežero nėra.  Nors vieta graži ir jauki, takas vietomis neprižiūrėtas ir jį bando pasiglemžti gamta. Plačiau apie taką skaitykite tinklaraštyje: http://nesedeknamuose.lt/takai-prie-ezeru-pasivaikscioti-pavyks-issimaudyti-ne/",
+  images: [
+      "https://doc-04-ag-mymaps.googleusercontent.com/untrusted/hostedimage/ihucu48q9m5s1hftel5u85tfdc/h910l5mpeotf8idsi2f5heflds/1652418900000/-WPmm_dsOCr8C_2Ftfdhs7CzXYdOD0wc/*/6AIsG_vbFBB0PiBoZdaUEOkY6xl79gGhEH6NI4dVibzDN4h0wnvXxDJ5h_mgXHaa-UoRfyV_ofS-SnH15sBmXEzEiN__F5Dbw-Ye3v1D1B3Czm56_vHt6NcXnBs4IJZF9y3U84f84u6z1-AfKjrspMRBflj_MgEbFhl-6j8j5q4TlH_05LnK3Cp3LNuNUMXuVTg?session=0&fife",
+      "https://doc-10-ag-mymaps.googleusercontent.com/untrusted/hostedimage/ihucu48q9m5s1hftel5u85tfdc/53e9fb84hhinchdlaov1m7uqc8/1652418900000/-WPmm_dsOCr8C_2Ftfdhs7CzXYdOD0wc/*/6AIsG_vbufQ2L5bgo4NCFNcc_T9jGdZlP61DKJiQuFNsL7k9B0Z8VCN6Vjxt3_ZIqc_H16KWNK9cV2K7HB-a4gkIjbqB8MuSm6IJct8B9gncyNSQ5vWs2xeKjIt6qQqSYTdOntDMGYvreZnuWclddk561dL_oMazE6zISJzHHIJS_96DcPUamUdylhJcIC055rw?session=0&fife",
+      "https://doc-0k-ag-mymaps.googleusercontent.com/untrusted/hostedimage/ihucu48q9m5s1hftel5u85tfdc/nine701ovprh19skjognd10asc/1652418900000/-WPmm_dsOCr8C_2Ftfdhs7CzXYdOD0wc/*/6AIsG_vbb9Cf66RswapJD8ysW4AxMU4We0vUW0j8isdXjkYVZsqeM0AFq47lUBAM9BGhdOkNVkIccUSJaCimiPeV5jX6yeeTvOwSaKYM8STinEKmU630fqUhBtnFp-XtVjYLqcAK2sD3z8JniQGiEoov_c7VC3V9aB1QAOoVdG43IRIJB9ABolW1pF-NPVRNU7A?session=0&fife",
+      "https://doc-04-ag-mymaps.googleusercontent.com/untrusted/hostedimage/ihucu48q9m5s1hftel5u85tfdc/t978cepssmn4bva1kt83n8cglg/1652418900000/-WPmm_dsOCr8C_2Ftfdhs7CzXYdOD0wc/*/6AIsG_vaEC7qGC08WRdEnuXKM_rdW8g78RDmgYIPe04GZWPD5C0kwzWxlXiQWDmTFmfWJZAaaaRzXNdjRZeofKLL3NNz1xyfJU9ahDe2yJjgJcPf1yUvUJOKzaNMvzVdvJREfuUFtlbpmWyr-jfe4Yi2agWQhLV2K3gyyZmMA0XCpjO19rwqI0-xnEsbd_3gztQ?session=0&fife",
+
+  ],
+  name: "Balto ežero parkas ir takas"
+
+},
+{
+  distance: [
+      "1,3 km"
+  ],
+  time: [
+      "1 h"
+  ],
+  coordinates: [
+      21.187893,
+      56.031506
+  ],
+  description: "Baltų mitologinis pažintinis takas",
+  images: [
+
+  ],
+  name: "Baltų mitologinis pažintinis takas"
+
+},
+{
+  distance: [
+      "4,7 km"
+  ],
+  time: [
+      "2 h"
+  ],
+  coordinates: [
+      23.712272,
+      54.03871
+  ],
+  description: "5 kilometrų ilgio miško takas Veisiejų regioninio parko miškais vingiuoja žiediniu maršrutu. Pėsčiųjų trasa eina miško takais ir miško keliukais, o dviejose vietose galima prieiti ir prie Ančios ežero. Plačiau apie taką skaitykite tinklaraštyje: <br>https://nesedeknamuose.lt/pazintiniai-takai/ilgininku-misko-pazintinis-takas/ http://nesedeknamuose.lt/neplanuota-kelione-po-dzukija-su-skania-pabaiga/",
+  images: [
+      "https://doc-0s-ag-mymaps.googleusercontent.com/untrusted/hostedimage/ihucu48q9m5s1hftel5u85tfdc/tiikqmi3v2nplnigeniof3fd7g/1652418900000/-WPmm_dsOCr8C_2Ftfdhs7CzXYdOD0wc/*/6AIsG_vbldHfW0wO8pRrFYNroildv404CC6yhpyVMNN0_R6_4Xv4SCDjW-acYDU_2T28HY00y5evoRzjOKoS6Nn2FNMtn44hyt3aiMHeKP6t-Pr-ZYnhHp8Je3K7YbcZV46qjbys6QpL-5r6vhX3apY51A8vc8v9QPPNazVH424JRnJMY2J0u8I-fxewR-uzjOQ?session=0&fife",
+      "https://doc-0o-ag-mymaps.googleusercontent.com/untrusted/hostedimage/ihucu48q9m5s1hftel5u85tfdc/mgsf3evo5f1kjkeuaf01fv2954/1652418900000/-WPmm_dsOCr8C_2Ftfdhs7CzXYdOD0wc/*/6AIsG_vYGCiAoZANyClPlWLk1xa3nWc0iy2RuGT3-v2x7m169bamN_8Dw5ozHUD0VqWM9418cm5QJ6QyzkDSorNgGJfFeuOK29YRfYLJYqMhj-fZUe_T4Xj3i5jHrw2I9yZXT56CLPjrwP_FB_GF7-dkn84rr8BuQWMXwPNDCCxIIX1gQFlLJsvOA8yDKjg4jJQ?session=0&fife",
+      "https://doc-10-ag-mymaps.googleusercontent.com/untrusted/hostedimage/ihucu48q9m5s1hftel5u85tfdc/9grur6vib70iutknr73e5iqrd4/1652418900000/-WPmm_dsOCr8C_2Ftfdhs7CzXYdOD0wc/*/6AIsG_vZdGAHWVczuFfpaWGyWfrvup5mnfoNQHVFkksLaIc8DRpq6Smbqhrpzc_wNJ4Zutw8ZejEaN0rh8LHbRvL6Fo0Fg0xvFuYK3CQMyGuzRhMb2gHWTUvtY6nLqQKQPP_fVIkbJnKKUqxYtFI4ixuPqwKpM9u8O_cG2sAlLlNG27s0kwdR0NLOt0aOxpLzdQ?session=0&fife",
+      "https://doc-0k-ag-mymaps.googleusercontent.com/untrusted/hostedimage/ihucu48q9m5s1hftel5u85tfdc/dq5sdhv4bvuv4g0hgo4k9cb4s4/1652418900000/-WPmm_dsOCr8C_2Ftfdhs7CzXYdOD0wc/*/6AIsG_vZSkecUK0rKKrn66U2MrLIVo1DDaSxyEqfIz_QkDQknbhfwsBi1eeu9oQiAQ1CzzxFfxVW051a4yScxp-YBXBliyjBremFTqu2dqTmv_Ow01ERA_BnsjchSB1-QM03KtnqBCdREx4KSKYbBUf2rAqhEI4dLit7rajl_lIDT9VANDWnasOi1Rol6_3_OEQ?session=0&fife",
+
+  ],
+  name: "Ilgininkų miško pėsčiųjų takas"
+
+},
+{
+  distance: [
+      "0,3 km"
+  ],
+  time: [
+      "0.3 h"
+  ],
+  coordinates: [
+      24.003994,
+      54.007335
+  ],
+  description: "Girios aido teritorijoje įrengtas beveik 300 metrų ilgio takas, kuriame supažindinama su dekoratyviniais augalais. Plačiau apie taką skaitykite tinklaraštyje: https://nesedeknamuose.lt/pazintiniai-takai/girios-aido-pazintinis-dekoratyviniu-augalu-takas/",
+  images: [
+      "https://doc-10-ag-mymaps.googleusercontent.com/untrusted/hostedimage/ihucu48q9m5s1hftel5u85tfdc/2rn5npphcpl4bo1iu76edoimsc/1652418900000/-WPmm_dsOCr8C_2Ftfdhs7CzXYdOD0wc/*/6AIsG_vYyEzMH4NBAqMaBFKT03_8J-tyRN1a_tWK8aLhH7fmH0HGOHWE8QkA0lvj4hmj57t6qcM18FspWY1UPbN70aiybnK7gTkyBGp6NMJAOKZh_hp5dt31KJnfXTJxVuGPS6LGtdpB9uaHLO0ycLkP_jzY7eAIorWmNzsjWhAsU2zGtJvtGmhJ6U0PVcKXClg?session=0&fife",
+      "https://doc-04-ag-mymaps.googleusercontent.com/untrusted/hostedimage/ihucu48q9m5s1hftel5u85tfdc/quas9okvl12u59hpfdcm65bves/1652418900000/-WPmm_dsOCr8C_2Ftfdhs7CzXYdOD0wc/*/6AIsG_vZgGLXh_nxP78_-3N7024XzIcAIrzxpMG0I-aAWymnbX49_UHOCYSVEM9bqX12kBenwKNsRkUwBXZ_2bmvjVvUgOK-ISd2dJfl1MjlmVGkpJcviZXpMpGUWO6YDGsIMKUqt-xcmQHG_vdHtia0dIJNz_XPEV9E2oVecSpE_Gk-yvWADznMGsUNJ0w06Ew?session=0&fife",
+      "https://doc-0g-ag-mymaps.googleusercontent.com/untrusted/hostedimage/ihucu48q9m5s1hftel5u85tfdc/0q7nrlvjj9mfg1h1u4nt9fqm24/1652418900000/-WPmm_dsOCr8C_2Ftfdhs7CzXYdOD0wc/*/6AIsG_vZOoo2fNLyNctzZGZTK0K5ccf55frwRwalncEaa7607Md4TzIhF6ZlL2UeUKdNvAsdoLIO0DLsBuQ2YwAUws2wIQet2nO4UL6ieSHyy_HSUFP3s981h25VPPqgCZR4r4ViTy20OikELZXZ8hl_DAuCPyTYMGE6MCqEgLtkr83gstgzTLjzgqmQUQzZf7w?session=0&fife",
+      "https://doc-0g-ag-mymaps.googleusercontent.com/untrusted/hostedimage/ihucu48q9m5s1hftel5u85tfdc/u392b40d381qmta0m08dlbfn2g/1652418900000/-WPmm_dsOCr8C_2Ftfdhs7CzXYdOD0wc/*/6AIsG_vZzK8cC8h5XgC2IbMjWmic9yFGAco1h_irLEMbCpdAvQ85JU7hj32Tj_rNNkZDFRP21bI_RtRK5R7y7SMFhL8uVjSesLZI3r1pVhggy1wdn1cJ76upfeb4seV7v_3CXnbb52teVXvKsAmBFOuDIyH5bf_RBHM6dXISVLFFeRfnxpaqZTr_UtBQazh8bHw?session=0&fife",
+
+  ],
+  name: "Girios aido pažintinis dekoratyvinių augalų takas"
+
+},
+{
+  distance: [
+      "11 km"
+  ],
+  time: [
+      "4 h"
+  ],
+  coordinates: [
+      26.139434,
+      55.584028
+  ],
+  description: "Gražiais pušynais vingiuojantis maršrutas prasideda ir baigiasi Salake. Jo ilgis 11 kilometrų ir vingiuodamas miško keliukais jis aplanko Ganiavos, Mergežerio ir Mergežerėlio pelkėjančius ežerus ir vienoje vietoje veda per pelkę, todėl renkantis šį maršrutą reikia tai įvertinti. Plačiau apie taką skaitykite tinklaraštyje: https://nesedeknamuose.lt/pazintiniai-takai/marsrutas-briedziu-takais/ https://nesedeknamuose.lt/misko-vonios-arba-briedziu-takais-po-grazutes-regionini-parka/",
+  images: [
+      "https://doc-10-ag-mymaps.googleusercontent.com/untrusted/hostedimage/ihucu48q9m5s1hftel5u85tfdc/8keeq1uv2iru2g63iopepufhqg/1652418900000/-WPmm_dsOCr8C_2Ftfdhs7CzXYdOD0wc/*/6AIsG_vbuSHiIFb80xwguytKH-0NMvWWJjX5pUWs2Iq4WiEKJlUONwUBfnqSV3a5_jdvOWWm2oGg8y7BKZDbWxPsscwfkyUHjKmwJJQuQsW_DrPa9ZI6RyAUs0-JVG5971qeLMZPmupOZq-LoCg7pYaEkZs4lkyu05XFkZG1ZJO1hsyuXDxKhM7BaM6raBHST7g?session=0&fife",
+      "https://doc-0g-ag-mymaps.googleusercontent.com/untrusted/hostedimage/ihucu48q9m5s1hftel5u85tfdc/84fet0ma2djmim29vo7n9b9k3s/1652418900000/-WPmm_dsOCr8C_2Ftfdhs7CzXYdOD0wc/*/6AIsG_vZmd_XRC6DyYRIXNaJADkRIFC3oQPWdoGN5eq2aN_n_d0JylrFQroi8RXD4gNfekz6ELEgVhoeOkmwc0nigaM2IpRaQlvg0O9NiVwQ1wWSrF6-SGpsdPyLZ5JPFLEHn41GWSGx_FigWTYltIv359j28t5VcUzLlQZXhc8EUAbqgeIAEleSBNxmoIQquPA?session=0&fife",
+      "https://doc-14-ag-mymaps.googleusercontent.com/untrusted/hostedimage/ihucu48q9m5s1hftel5u85tfdc/s22oaccdasglahsmjdt3161bsk/1652418900000/-WPmm_dsOCr8C_2Ftfdhs7CzXYdOD0wc/*/6AIsG_vbVahiD-yoo_lE1Rxoegt3N34lNXVjRk8TLg-agStOg0jxhRi8YrvdQGJuL_ugLA6P7P61YGYWchxuznI8nQusNiqoFGWai32FCqTGxph249-ANhnfsYz4gKgHrWxznHxDMqHlOa3iDVrBN-hBBZow62oHVhXWVhGKsMRyw-OujZY5OfoOrrPDrpk2VvA?session=0&fife",
+      "https://doc-0c-ag-mymaps.googleusercontent.com/untrusted/hostedimage/ihucu48q9m5s1hftel5u85tfdc/1fh9jatvmkqjbhjs38iu9mbt74/1652418900000/-WPmm_dsOCr8C_2Ftfdhs7CzXYdOD0wc/*/6AIsG_vYZiuixWEvZXi1q5Yi7pDz2BZXxYmKyvGJYjVJ9ormIF_Bk3_UMaSWuhJi8-2iP-bc-fAuwEkz1WCs_7rBtG5jGgsilGP7XgptVBe7GgSvilj0smcjncW6f2CxK5AIKqLrZ2H0hy7LY7kfWYEBHmFDwhd453Rer-M5a-FmfC1bxtoUKMvMXm5Ta74X8TQ?session=0&fife",
+
+  ],
+  name: "Maršrutas 'Briedžių takais'"
+
+},
+{
+  distance: [
+      "1,3 km"
+  ],
+  time: [
+      "1 h"
+  ],
+  coordinates: [
+      24.784657,
+      56.235406
+  ],
+  description: "Joks basų kojų takas negali būti nuobodus, bet šis išsiskiria dekoracijomis ir statiniais, kviečiančiais neplanuotai fotosesijai. Maršrutas žiedinis, tako ilgis apie 1,2 kilometro. Įėjimas mokamas, tačiau antrą ratą galima eiti nemokamai. Plačiau apie pažintinį taką skaitykite tinklaraštyje: https://nesedeknamuose.lt/pazintiniai-takai/eko-basu-koju-takas-birzai/ https://nesedeknamuose.lt/padu-jautrumo-ir-valios-testas-birzuose/",
+  images: [
+      "https://doc-08-ag-mymaps.googleusercontent.com/untrusted/hostedimage/ihucu48q9m5s1hftel5u85tfdc/c8tvi19pnaikmcg2nsovnf9gho/1652418900000/-WPmm_dsOCr8C_2Ftfdhs7CzXYdOD0wc/*/6AIsG_vZIbEXb01A-b3lNYtG3En3-odi-brBH2GuBRpVcFnQJOaxHRbVUnrkqQnHavq5oIy6PBO5fz4NincokPAiCDMBE6GM3Gp0rUK5_NqxY-rvltMAx_1_RAladjTUXNnCp8TgcRBtCgLZvrQ8Yy5UzuSXr5z3wlASIWZVRug5j8I7Js30VagMVM2bJ7jnf7w?session=0&fife",
+      "https://doc-0g-ag-mymaps.googleusercontent.com/untrusted/hostedimage/ihucu48q9m5s1hftel5u85tfdc/i02sdom1lc9gs1d7o3h75ljsj0/1652418900000/-WPmm_dsOCr8C_2Ftfdhs7CzXYdOD0wc/*/6AIsG_vZMxIJTd7p-yCX3Fc4QQe0EpFLXoimVycXRraYH6bO-o4pT8oCGrZgMrqXqCjD93_kr99wx0gegBMMx0gjX1c2ka5Ma4F_d6i0GDTZWowPTyTq3UP2EGKctX_0DkqJLf60gSoLcpvNlAn3jbvxChjCi_63Q_UjIKf0-pXJ0H42cI1Kt2wx6g9fTWo3d6g?session=0&fife",
+      "https://doc-04-ag-mymaps.googleusercontent.com/untrusted/hostedimage/ihucu48q9m5s1hftel5u85tfdc/htqp6857bhv7avd4hrfrr6d5pc/1652418900000/-WPmm_dsOCr8C_2Ftfdhs7CzXYdOD0wc/*/6AIsG_vZo1dlZnF1H21NU6M_Qsm8Y320FyGXaE1f3RV_FZN9j11pKHMxtWYXa24-2RGWhbpXl2DIFzD6xhLGux0KttyUasncUseU4jYrThGrXet6sdE9uuhQpAHQJcs1cMR_sx05CNL6L4__hy6kkP5OjWYNf1Omi-ZVelcg5ln9QIs9bvGNepTVWtfU8q93lRw?session=0&fife",
+      "https://doc-0s-ag-mymaps.googleusercontent.com/untrusted/hostedimage/ihucu48q9m5s1hftel5u85tfdc/chnr2vvhlisjtissutn8epi5ek/1652418900000/-WPmm_dsOCr8C_2Ftfdhs7CzXYdOD0wc/*/6AIsG_vYgcPQkSMuODFVoZu_d92QXVfx5xQGaxoH9Wlm7ow6KqjjkafVFORwoREp1-GFgFFH69AHEwRjm7Kc3cPNxSYTucPdKnM-s4bHQTNmWViBck7VXX_8CVW8DxoCAlNYAwc1RLXe8uag-oRyEkQbVKT0JfysPu9PQxrnXvisgkdSLdSf_MIirGg0gDY-JxA?session=0&fife",
+
+  ],
+  name: "Eko basų kojų takas"
+
+},
+{
+  distance: [
+      "0.45 km"
+  ],
+  time: [
+      "0.5 h"
+  ],
+  coordinates: [
+      21.164994,
+      55.959732
+  ],
+  description: "Iš karto už HBH pramogų parko esančioje pelkėje įrengtas pusės kilometro ilgio HBH Pelkių takas. Tai žiedinės formos maršrutas, kuris veda medinių lentelių taku, o informaciniai stendai supažindina su pelkės augalija ir gyvūnija. Plačiau apie taką skaitykite tinklaraštyje: https://nesedeknamuose.lt/pazintiniai-takai/hbh-pelkiu-takas/",
+  images: [
+      "https://doc-0g-ag-mymaps.googleusercontent.com/untrusted/hostedimage/ihucu48q9m5s1hftel5u85tfdc/2gq6iauo4hl41pbmtv8q8r4ej8/1652418900000/-WPmm_dsOCr8C_2Ftfdhs7CzXYdOD0wc/*/6AIsG_vZsJzkXJSd8irYG-4fIb0vyEG0Z4iWRyPQB9iNdqzLgb3JfV-cNdYQ6DGMEbLzzyXiUc1BAhC-c9mYJh1E26B2QECSbCrZxO1e-8HFmBmmYaja1UIeQzVhL5mvMS-5G7EkSz5zca2B4NO6f5X0IATgLo4qwEZATu-eP-Qf_beyEqJTnttXNVOIERvlVPQ?session=0&fife",
+      "https://doc-08-ag-mymaps.googleusercontent.com/untrusted/hostedimage/ihucu48q9m5s1hftel5u85tfdc/qcrsc6rtsulaf4l17crp0i9cb4/1652418900000/-WPmm_dsOCr8C_2Ftfdhs7CzXYdOD0wc/*/6AIsG_vbA8au3D3U8W-kQ76TSDnQ3ScbBIlSy3gzzvP3Z5g_Nfg7cEV-xvVpOXQxtPz284C8lZ3v5wBh9XfchcLwGgoY4vmglWgkpoZoZ8SXb7ppWAi7x-lI6aCOklCy6MHSdP6gO0XzAM4xk1RPOB07fBe6xFZUvfxKGp70B3FZxK_9tQyNXTdOYYHKwpMPPSA?session=0&fife",
+      "https://doc-08-ag-mymaps.googleusercontent.com/untrusted/hostedimage/ihucu48q9m5s1hftel5u85tfdc/6u1pm2d2fa9vlboib36ah3gsd8/1652418900000/-WPmm_dsOCr8C_2Ftfdhs7CzXYdOD0wc/*/6AIsG_vY3c8d8AnF-wWw75aV-gfQpET5Hfqor1CSWtIZrSGVgRCP1wGhn2tQDoh_b_jvnN8_jFVgBdtY91ckDyQYbg9HM0ho_lAQ4vtdxcBJB8xQyQr-CI6bQplORWwMyLobdSvhL3Cfq1Mltpd58VoTohO-jFUwryio-APmtccTJ_o2CWZ0wyPQd3G6nVMSpoQ?session=0&fife",
+      "https://doc-04-ag-mymaps.googleusercontent.com/untrusted/hostedimage/ihucu48q9m5s1hftel5u85tfdc/ukvivfdb73rnj6320it9bdihtc/1652418900000/-WPmm_dsOCr8C_2Ftfdhs7CzXYdOD0wc/*/6AIsG_vYizTo3peU4gLt6llY7jiSMkGJodOBlMqDmBtVjUEgWdSgblzEUkMAy9Ku7tdR9PUFGYT_dvUgWaBMAwNbEzZlL9CQyVEgATSC7xK7TLz-8bqdd8zAqzSUSYJ4vVXHkKmKDlCVloRDpka_VAcYwhXV6M1GSpck7WsRlEIiGjPq8PGg0W7JJiHek5BeygA?session=0&fife",
+
+  ],
+  name: "HBH Pelkių takas"
+
+},
+{
+  distance: [
+      "4,5 km"
+  ],
+  time: [
+      "2 h"
+  ],
+  coordinates: [
+      23.210862,
+      55.594057
+  ],
+  description: "Bridvaišio ežero rekreacinis takas",
+  images: [
+
+  ],
+  name: "Bridvaišio ežero rekreacinis takas"
+
+},
+{
+  distance: [
+      "1,1 km"
+  ],
+  time: [
+      "0.5 h"
+  ],
+  coordinates: [
+      24.038452,
+      54.507366
+  ],
+  description: "Pasakų takas",
+  images: [
+
+  ],
+  name: "Pasakų takas"
+
+},
+{
+  distance: [
+      "3,7 km"
+  ],
+  time: [
+      "2 h"
+  ],
+  coordinates: [
+      23.988914,
+      55.308905
+  ],
+  description: "Kėdainių pašonėje per Babėnų mišką driekiasi rekreacinis takas, kurio ilgis apie 7 kilometrus. Maršrutas nėra sužymėtas, todėl pasivaikščiojimui gali rinktis labiausiai patinkančius takus. Jų čia  ne vienas. Plačiau apie taką skaitykite tinklaraštyje: http://nesedeknamuose.lt/vaziuojat-i-lietuvos-viduri-pasiimkit-su-savimi-saltkrepsi/",
+  images: [
+      "https://lh3.googleusercontent.com/umsh/AFiHsUGZuGWr_zT3MD46VChZeNZivGGDNHKuzaW0PIzfVtWno9PZPyu4SJZTczyvd0VbFuTBKzIDkRWg7uMOEoMhAJw-cKPv5C-IMTSqWIr6ySxyLg7xj9CdDgn3AnvxNz29YDC_3l6dArGEY7kQLJw0V928mcT4w53vueUXN0E1deq7k9Nr9gpvA9KXY9e4v69_H7a2jjv5Xg8ICEtYm7A17EZRUTALf4KGiaoyUEipLQO6LVkulNqoW2oEZHD1wy-_98IImQ6fCbX1dnFruQ",
+      "https://lh3.googleusercontent.com/umsh/AFiHsUHKuB_SYsuroU01F4TLYuYTU-Fe1uMV-qLYZyarLRX6jmxG9lHXBVWsJ0FluTPeH8chQ8YhA5Pf85NIEV4EuXtqo7hKVu-j6nMHGAtHlyD-nn53BmMPvXF8uVjaZJI4A7fuAGAgoKh6mMz4E5OTFW6wTeliqY6U2c1OQlY6dvPaBWXt1Jyb9NWmIdNxplbodv1y44IheNazJPZC5npHPNHbkClt7CXFUvAQJRgKm1l3_kF7n8kkmjbQK1EIzvuUo_vspqsgN4CGguy0fA",
+      "https://lh3.googleusercontent.com/umsh/AFiHsUHGUt8Bgn3m33Er-UR-X3YDo5ASuEa29d8v5vDP62g5FPNPvmF3SEeCnhtNdd7eUox6uJGt4OYRKP84e081afKAw0boHlr5teGMNHc9gDxT9RvT7jDqHsXxmmrbN3Gnn0OKlE4pVCUYZSGsfNw-Q9VxW_aSVL5fUb2h3ufI_ow6hfPj8ExXDBV5oqA5ied8XdG3Cl2QyKFrBj7NSwu5FG5qeonjB0OhhfLdFhHKNvgY_P6mIZ5ZF2JoBCXqupheTGoxU2lhLbDN_BoA1g",
+
+  ],
+  name: "Babėnų miško rekreacinis takas"
+
+},
+{
+  distance: [],
+  time: [],
+  coordinates: [
+      23.653764,
+      55.317252
+  ],
+  description: "Pėsčiųjų takas Skinderiškio dendrologiniame parke",
+  images: [
+
+  ],
+  name: "Pėsčiųjų takas Skinderiškio dendrologiniame parke"
+
+},
+{
+  distance: [
+      "2,6 km",
+      "3,4 km",
+      "4 km",
+      "6 km",
+  ],
+  time: [
+      "1 h",
+      "1.20 h",
+      "1.40 h",
+      "2h h",
+  ],
+  coordinates: [
+      23.6472233,
+      54.943098
+  ],
+  description: "Pušyno gatvėje, netori Kulautuvos bažnyčios, prasideda 3 pėsčiųjų sveikatingumo takai. 2,5 , 5,9 ir 6 kilometrų ilgio žiediniai maršrutai vingiuoja kalvotais Kulautuvos miškais. Dar du takai yra rytinėje Kulautuvos dalyje. Takuose įrengtos poilsiavietės, įrengti keli informaciniai stendai. Plačiau apie taką skaitykite tinklaraštyje: https://nesedeknamuose.lt/pazintiniai-takai/kulautuvos-pesciuju-sveikatingumo-takas/ http://nesedeknamuose.lt/pazinti-su-atgimstanciu-kurortu-pradejom-nuo-pesciuju-tako/",
+  images: [
+      "https://doc-0s-ag-mymaps.googleusercontent.com/untrusted/hostedimage/ihucu48q9m5s1hftel5u85tfdc/ugs7rjkqpc2vnu8on2q816opr8/1652418900000/-WPmm_dsOCr8C_2Ftfdhs7CzXYdOD0wc/*/6AIsG_vbDv_MrR2qnSpvCld7sz0UudWiDAb2ekZ34BKEA0Ng4iuqb_olne5QVNPhfVoiyOJ1VSc60o5crs18RzS0sPIz7A1RWNrxBOd2NiqgF1muqydzsD6S9LQWmHa16O9YP1TSWuxHcsZ0c-H-9aKXCCZxjkNsGP0tWjtgFrxO1Q7xt4UuLVq0UEB3p2xRgGQ?session=0&fife",
+      "https://doc-08-ag-mymaps.googleusercontent.com/untrusted/hostedimage/ihucu48q9m5s1hftel5u85tfdc/5ao4h768dascspbm7qsqs4onb0/1652418900000/-WPmm_dsOCr8C_2Ftfdhs7CzXYdOD0wc/*/6AIsG_vZv6V6_FHeCChEY4RZ_watI2tNYoz2mj-MrMoloMIqdMl1fofQKRjQ5Z1qJ4QioJg3cO0uS1s5uVtYdRgfv6asGqevASoDwJ2v1RrgcxSA1lWMmA504sTXQGhW9HwECq1yPwmeZP_bL9IiDSviqTx6fZIOVfWM5T14oWd4mfsrSYvtcWd7dPPENkCAZlQ?session=0&fife",
+      "https://doc-0c-ag-mymaps.googleusercontent.com/untrusted/hostedimage/ihucu48q9m5s1hftel5u85tfdc/va90kci87v7qjadsjq9jfclhmg/1652418900000/-WPmm_dsOCr8C_2Ftfdhs7CzXYdOD0wc/*/6AIsG_vaMs6O4ibCjjlz73x7tU_GH3MgoXJNuAI-4lLFIfPzzX1gO5TpNp3qsNomO_-vWZvEF79CGtFqt6Yu4aXVtBOlPNjoOq-Q-zWlEnRJJ4pRh9nBQ2P6S3gCb-1az8MfIaumKD_R1frPQjMQ8jjLKPDxJuCL7qB5u9pj8VK_5lJOZ4tb-F8niIdO2xrKyhA?session=0&fife",
+      "https://doc-0o-ag-mymaps.googleusercontent.com/untrusted/hostedimage/ihucu48q9m5s1hftel5u85tfdc/kg3ujc7vr9cgomtifee18do8fo/1652418900000/-WPmm_dsOCr8C_2Ftfdhs7CzXYdOD0wc/*/6AIsG_vZeDw1LaWJ9Dj128WtbLlzXu15zerwn3f9FdWfBk1yXesdq_2ng3g-9w94V_krQHZydhtrczlhzJREUvpeT6vZ5YKNusjJXjO14GdZJyxOQsy6or94eZsoGO99v2nEOOEXBEAjVCBDuj2nXGKNqVZIsxD4QBTvbbtxu0FM_USnofIL-gh5fCt8YgjB4CQ?session=0&fife",
+
+  ],
+  name: "Kulautuvos pėsčiųjų sveikatingumo takas"
+
+},
+{
+  distance: [
+      "1,5 km"
+  ],
+  time: [
+      "0,5 h"
+  ],
+  coordinates: [
+      24.2568486,
+      55.0368701
+  ],
+  description: "Basakojų takas",
+  images: [
+
+  ],
+  name: "Basakojų takas"
+
+},
+{
+  distance: [
+
+  ],
+  time: [
+
+  ],
+  coordinates: [
+      22.2520084,
+      55.2345808
+  ],
+  description: "Pojūčių takas",
+  images: [
+
+  ],
+  name: "Pojūčių takas"
+
+},
+{
+  distance: [
+      "5,4 km"
+  ],
+  time: [
+      "1,45 h"
+  ],
+  coordinates: [
+      23.7235694,
+      54.929267
+  ],
+  description: "Kačerginės pašonėje per kalnuotame Nemuno šlaite augantį pušyną ratu suka Šaltinių takas. Natūralios dangos takais žiediniu maršrutu veda net 5 maršrutai, kurių ilgis nuo 2,6 kilometro iki 5,5 kilometro. Galima aplankyti  šaltinius, užlipti ant Pyplių piliakalnio ir pasigrožėti Nemuno slėnio panoramomis. Plačiau apie taką skaitykite tinklaraštyje: https://nesedeknamuose.lt/pazintiniai-takai/saltiniu-takas/ http://nesedeknamuose.lt/su-vasara-atsisveikinom-saltiniu-take/",
+  images: [
+      "https://doc-10-ag-mymaps.googleusercontent.com/untrusted/hostedimage/ihucu48q9m5s1hftel5u85tfdc/ucvaqg1k0mactm9864qf3oip7s/1652418900000/-WPmm_dsOCr8C_2Ftfdhs7CzXYdOD0wc/*/6AIsG_vZ6-lleTWJnjicax3QByQ1nVXEy2cmVHrZg5a-afS4VOKGqqFvlThZ9J-SdYxdyyov_lAT7w9bq1Najz6HE9Wa7ohq5BE-QoP4ejX0_UPdqa3sk06Q5VD3vFJQtpKPsxT_aWxiFilqr3mWmmWOv-ACeG0NjDtRPf-MYC5PKRVxfA_SH91fBpLAr4wX3AA?session=0&fife",
+      "https://doc-04-ag-mymaps.googleusercontent.com/untrusted/hostedimage/ihucu48q9m5s1hftel5u85tfdc/9pakmr53a3446v5htjld9ggdtc/1652418900000/-WPmm_dsOCr8C_2Ftfdhs7CzXYdOD0wc/*/6AIsG_vZ2mEgh_GLfoVkMQ6uxppZybqjM-lErjB8c2iYE2qyMht3tQY-B4bEQXW4GdbV_w9WiZAl4c6obc33x0E4DV6fe2YZeTUduamtLLhyhWt5iuHpkzEKh0pSIrQteS1QQq_uDAK89VzSSpTWoOdr9z8tnqe9jc1suwuH_cqPgYBsZGibiYdvI9AUB-VP4pw?session=0&fife",
+      "https://doc-0k-ag-mymaps.googleusercontent.com/untrusted/hostedimage/ihucu48q9m5s1hftel5u85tfdc/m5f96u09g873o49qkttdhdceug/1652418900000/-WPmm_dsOCr8C_2Ftfdhs7CzXYdOD0wc/*/6AIsG_vbVVq3sczOvP_v3t5r7TjLS07LHP2GqLuBTxK8UVKcOm2HpVv56D_54jcxMv49EiKEzI_TJDhNE9qJz8_hF_nexJNTkpMTaTZeQcSoB2XDaCj6vf6vzh5McYHqTagj4g5_Gnf2v_GAqDdAsK3sfHNVIVIDi23X5AJ91K_bRnq9GxXQa26qoKkrkuKFsTw?session=0&fife",
+      "https://doc-10-ag-mymaps.googleusercontent.com/untrusted/hostedimage/ihucu48q9m5s1hftel5u85tfdc/p3qcv7kcr3g07tcc7slqo7l8vo/1652418900000/-WPmm_dsOCr8C_2Ftfdhs7CzXYdOD0wc/*/6AIsG_vaJMQlyy8M7_RSI3KniGB4G3hWLWnmMIQVvGwoLUIpYrR03kmhFOQMRfUkQRegWnnozszX2PwwPHVpKv8FrZBhkY0ZG3qSJDKNpeMFi7zOFPPLCmocmTpYXo0zEpfFOQKtS49J7pS1F4Ady9n-UfBjbUbbBndvL5PlGy4Qgce2zmgs1e0fW0oUioxjxwQ?session=0&fife",
+
+  ],
+  name: "Šaltinių takas"
+
+},
+{
+  distance: [
+      "13,7 km"
+  ],
+  time: [
+      "5 h"
+  ],
+  coordinates: [
+      25.3035249,
+      55.6994562
+  ],
+  description: "Šimonių girioje kovojusiems Algimanto apygardos partizanams atminti įrengtas pažintinis maršrutas, kurį galima įveikti pėsčiomis, dviračiu arba automobiliu. Nors maršrutas nėra pilnai žiedinis, jo ilgis siekia 15 kilometrų, o grįžtant į pradžią - 17 km. Jame galima pamatyti buvusių vadaviečių ir slėptuvių, o kartu ir partizanų žuvimo vietas bei kapinaites, kuriose jie buvo laidojami. Plačiau apie maršrutą skaitykite tinklaraštyje: https://nesedeknamuose.lt/pazintiniai-takai/pazintinis-marsrutas-algimanto-apygardos-partizanu-kovu-takais/ http://nesedeknamuose.lt/nuo-slaptavietes-iki-slaptavietes-algimanto-apygardos-partizanu-kovu-takais/",
+  images: [
+      "https://doc-00-ag-mymaps.googleusercontent.com/untrusted/hostedimage/ihucu48q9m5s1hftel5u85tfdc/54g1cnothii023o38schmtc1co/1652418900000/-WPmm_dsOCr8C_2Ftfdhs7CzXYdOD0wc/*/6AIsG_vagmyY6FjsJMSOEoCnWeV0-pjc-1FRhIdsGMtkcGgMjzRXxS1O0lraILB-2o6sjW6E5R_P_ih4pyqmItSN5hczggxPVNZTL6-hwqGKwaLxezmbZ_F8kEjvMW_IMgCy7f4U0qAbvGJbejAUuylXXJ9VF1qVSY4LxoEYxTcGsbHNKTAha2LvnZUPcRk9gyw?session=0&fife",
+      "https://doc-0k-ag-mymaps.googleusercontent.com/untrusted/hostedimage/ihucu48q9m5s1hftel5u85tfdc/9pmpu95sngjlrncpkkokpq64ck/1652418900000/-WPmm_dsOCr8C_2Ftfdhs7CzXYdOD0wc/*/6AIsG_vYvCXilYpNvs6ZxSVATkPX5JH-rVWQDf8ZXwY64gjNK6xHxFyBb1ShFw9-v-v0WizASYBin5auepe9gJQfM5VMNAgav0SvStcgxAfZliJPVWGRBNEKZyYE0CsnpR8wkwLl2qxa5J_iiUaRJA4AsH1-eJNMurTbeRrpCdv6aRrDhsSCzPA7gExW1P8DFfw?session=0&fife",
+      "https://doc-08-ag-mymaps.googleusercontent.com/untrusted/hostedimage/ihucu48q9m5s1hftel5u85tfdc/ft6get9b2n9l0ick7krgcjpb44/1652418900000/-WPmm_dsOCr8C_2Ftfdhs7CzXYdOD0wc/*/6AIsG_vaadoj8r1SSLggCVKG1C38nhfXVFteuxImWihikA7SDAFENlip3JqCKy7XWwqnwQfAlSa-SFy-tLXyKmMsZkV5ihgJ_Ltmvk1-DWDoBfwVUYEzkP_zR8CqaUNQyBnOxpldt0PSjvGfBK7ObCkx7VjVNraLkd1hnCMKXW4s73U7PpKyQ869Waco47AVJgQ?session=0&fife",
+      "https://doc-10-ag-mymaps.googleusercontent.com/untrusted/hostedimage/ihucu48q9m5s1hftel5u85tfdc/t2g93br0lobnl0kja6411rnapc/1652418900000/-WPmm_dsOCr8C_2Ftfdhs7CzXYdOD0wc/*/6AIsG_vbjt5iXmtBEWK21nNyG3vwaQWMkc2UhEaLTvnN1bglI57C1dbG8WFDE2wsTGw4mcQBz3NgTpVbL7oqTVMg2GjBhfIbN74EyWM-xpXNzVNjZFTkeGx1oMDmi2hk74MUbJ_hKt3vNVFFV-75oaEQBS1nG2aqUMuYicBtGUKj9uPS06O42VXfdSPDz4voX1Q?session=0&fife",
+
+  ],
+  name: "Pažintinis maršrutas „Algimanto apygardos\npartizanų kovų takais“"
+
+},
+{
+  distance: [
+      "9 km"
+  ],
+  time: [
+      "3 h"
+  ],
+  coordinates: [
+      23.9913069,
+      54.0052609
+  ],
+  description: "Saulės takas nuo sovietinių laikų žinomas kaip dozuoto vaikščiojimo trasa, tačiau dabar pervadintas į šiaurietiško ėjimo takus. 6,8 ir 9 kilometrų ilgio maršrutai eina Ratnyčios upės pakrantėmis ir pušynais, aplankydami Girios aidą ir Dineikos parką. Plačiau apie taką skaitykite tinklaraštyje: <br>https://nesedeknamuose.lt/pazintiniai-takai/saules-takas/ https://nesedeknamuose.lt/saules-tako-saulelydis-druskininkuose/",
+  images: [
+      "https://doc-14-ag-mymaps.googleusercontent.com/untrusted/hostedimage/ihucu48q9m5s1hftel5u85tfdc/jp6nc1p42of7cehak92uh3t99g/1652418900000/-WPmm_dsOCr8C_2Ftfdhs7CzXYdOD0wc/*/6AIsG_vbVSS8eUd_sn7nXSZGa8eYE9Z_gzivqViS6GdydMroM2lkXti119mfscz1B1xY0FRsooKrbOP4kjZm4vP9-DoQVeylaiJWcUQLLuUIJaUnm1euW9yWEzi2Tpfd0nxGaLDmTj8K90PFAD4mAjUi3CIV2hVM6f4Xu5KqoDK0B9AVM2ppRzZa0xf1DvurMAw?session=0&fife",
+      "https://doc-08-ag-mymaps.googleusercontent.com/untrusted/hostedimage/ihucu48q9m5s1hftel5u85tfdc/nst3trk8d3dfh0eprqne8ktu9c/1652418900000/-WPmm_dsOCr8C_2Ftfdhs7CzXYdOD0wc/*/6AIsG_vZvjKJ6LnL4kQh8cP5S0OjW48O3y_MCNZjOA_qK5p_3LSUfSBIBR3zKPHjfZwforc0HGtp9UJ8UXvS8uic70sUs_3ajWatIfB5qVL2zPBYYiRR2BGdUfb73GO3Ao9N8iySXqvGzBYcWh51ahY5hagCB2QgGgY2pULBRtwMLfeUsqBGrvJMaGawd6IrAyg?session=0&fife",
+      "https://doc-0g-ag-mymaps.googleusercontent.com/untrusted/hostedimage/ihucu48q9m5s1hftel5u85tfdc/3i3mk99qbvs4fiapfacooanv2k/1652418900000/-WPmm_dsOCr8C_2Ftfdhs7CzXYdOD0wc/*/6AIsG_vZzEzoef-HV3CD1dfUowv1ETKBUaUdQR8qxMPO904kKs0MRaizqUOiw4KW2p7I04m-VvGgsfid6FosYXAKhG6OPvgZAnq9dC4O6ymXNgP32bpITn4qSSedI6rjN-00AyqIFneyNquAUWz-JD8847vQ-XsotPiL_uP8GkDDUvrDJNEjjnmj94ud1nXV8LQ?session=0&fife",
+      "https://doc-0s-ag-mymaps.googleusercontent.com/untrusted/hostedimage/ihucu48q9m5s1hftel5u85tfdc/a6g8l68h3erod41q6ciub2nioo/1652418900000/-WPmm_dsOCr8C_2Ftfdhs7CzXYdOD0wc/*/6AIsG_vYB9STIIMnHzbwFlHVDJwNrn9JfXD-7E9vKxJP6028za5AC3L5IZ2GEorcavR6mOpNnaFXT7wmWV54fA-ebjRYC5h8dyLZe4eQ-1UsrQVNdpAnhZLzTfiLHO3ysyo4LssCOELKq5JS0lPJHEzpiXser2itU4IbfVats5lzFG8lSG8CfkWY-j7pibllFEA?session=0&fife",
+
+  ],
+  name: "Saulės takas"
+
+},
+{
+  distance: [
+      "6 km"
+  ],
+  time: [
+      "1,5 h"
+  ],
+  coordinates: [
+      23.9636476,
+      54.6314469
+  ],
+  description: "Vienoje iš Nemuno kilpų, esančių to paties pavadinimo regioniniame parke telkšo vienintelė likusi Velniapliūdžio pelkė, o per ją veda atnaujintas medinių lentų takas. Prasideda jis prie Prienų ligoninės ir pirminės sveikatos priežiūros centro pastatų, o baigiasi ties Prienų kapinėmis, tačiau jo pradžią rasti sunku, nes nėra jokio ženklinimo. Tako viduryje, ties pelke, stovi vienintelis informacinis stendas. Plačiau apie taką skaitykite tinklaraštyje: http://nesedeknamuose.lt/takas-su-pabaiga-bet-be-pradzios-tikras-velniabliudis/",
+  images: [
+      "https://doc-00-ag-mymaps.googleusercontent.com/untrusted/hostedimage/ihucu48q9m5s1hftel5u85tfdc/mec8eo2sfeecgh3nbq6c9nmq48/1652418900000/-WPmm_dsOCr8C_2Ftfdhs7CzXYdOD0wc/*/6AIsG_vYV-vVLmtIXLMTH96n8XurFb0uWXldmyTLgzg_7W0IvQ7qj0CF3kmk253YHmfhrMuR7JD3osFWCjsTamHJmExR4cLCsbnbRG4vWNtk7fdfn9IkOlajEk63LhSDKixQad3JBi9cHaaEO2HPocoPd8rmGgD3m7385HRmkmY7qtQ2hq9KhtEssNU_P-kiruQ?session=0&fife",
+      "https://doc-0s-ag-mymaps.googleusercontent.com/untrusted/hostedimage/ihucu48q9m5s1hftel5u85tfdc/e1jltk745qohsufr3q42h0tkjg/1652418900000/-WPmm_dsOCr8C_2Ftfdhs7CzXYdOD0wc/*/6AIsG_vb-lb-HOiuxOpFYIhwRY7FouPeht9cNPBjOZaj2RS5g2F2vfqQ1n1W33x2hx06XPAAc2UbC2Q03_WQ4wRqHHn8zhwSfIR7ROpxETIPYCivZsKvmHFceZP9MIHairyuDxM-9Lt0pv9dKi_BG4Z-7NNA9gcDGwy7ZtJpVpwxo_Pplntaw4d9bvokWsBIdJw?session=0&fife",
+      "https://doc-04-ag-mymaps.googleusercontent.com/untrusted/hostedimage/ihucu48q9m5s1hftel5u85tfdc/duvdk78t1ibv5l9vj4pk505tec/1652418900000/-WPmm_dsOCr8C_2Ftfdhs7CzXYdOD0wc/*/6AIsG_vb9-QerPOHzOjSdlATW0si3rZZN54PPUhCQdmeZZNjBzrkugvrtkA8EUHCSQENDjtZaCY86IuBP5Qs9Jx3rdxB8NRxGtCsWeUsfHPlz0us6tsX1Jfl71Jl190OiTbZLRAQ5WM_vYeGIa3ySveWCVBloum7Bv1PsZy8L9kL0rrcpucT0fLQZgtaKK-JMPA?session=0&fife",
+      "https://doc-0o-ag-mymaps.googleusercontent.com/untrusted/hostedimage/ihucu48q9m5s1hftel5u85tfdc/4muosrhmbf3umpqs79ehggp1tc/1652418900000/-WPmm_dsOCr8C_2Ftfdhs7CzXYdOD0wc/*/6AIsG_vZTQzXxaFSq7xg6bCq2IBBD6TSb81sbSefDGsxGSsdBrCKfrytnCxTzHP1m9OxDIZ0toN39YLsCHLuq1qfDJDDDyq1BeNSdRS0K6zQYz7whg1yv3v1GkawgqQvf7qIEX07CjqXUflphgt71O0ilo1FDaqUMHhqtkcBsEaHPGNucrVQIFie_nqnJHRq59g?session=0&fife",
+
+  ],
+  name: "Velniabliūdžio gamtos takas"
+
+},
+{
+  distance: [
+      "3,5 km",
+      "4 km",
+      "4,5 km"
+  ],
+  time: [],
+  coordinates: [
+      21.0742274,
+      55.8072503
+  ],
+  description: "Sveikatos takai (Geltonasis, Raudonasis, Mėlynasis)",
+  images: [
+
+  ],
+  name: "Sveikatos takai (Geltonasis, Raudonasis, Mėlynasis)"
+
+},
+{
+  distance: [
+      "8 km",
+  ],
+  time: [
+      "3 h"
+  ],
+  coordinates: [
+      26.4780244,
+      55.2504774
+  ],
+  description: "Už kilometro nuo Paliesiaus dvaro yra įrengtos ir gerai sužymėtos 3 pėsčiųjų trasos - 2,3 km, 4,9 km ir 8 km ilgio. Visos trasos žiedinės formos ir eina miško keliukais. Pradžioje yra stendas su takų schema, daugiau stendų take nėra. Plačiau apie maršrutą skaitykite tinklaraštyje: https://nesedeknamuose.lt/pazintiniai-takai/paliesiaus-dvaro-sveikatingumo-takas/",
+  images: [
+      "https://doc-0c-ag-mymaps.googleusercontent.com/untrusted/hostedimage/ihucu48q9m5s1hftel5u85tfdc/ccf13afppu1mpuo3ug6ithm8go/1652418900000/-WPmm_dsOCr8C_2Ftfdhs7CzXYdOD0wc/*/6AIsG_vbAMhbfFT3WKUq_Y4UmpEN_HxR9kWKXpMfW3xjeWlMafawMa6dZwErhzEL-hFdV8mm407gD1tCL5XJriu-F4yNwXcxkLBVUMTtp86dYrkGYOO5P_DcLvBaUFR48oaDnDm1oBguka9xPxDDRUCJ2iplVAFaHdIxu6RtkSZv13liQHpKvvV39pNRl8ZpvHQ?session=0&fife",
+      "https://doc-0c-ag-mymaps.googleusercontent.com/untrusted/hostedimage/ihucu48q9m5s1hftel5u85tfdc/4knmikd6mikdgiu15fc26vhbgk/1652418900000/-WPmm_dsOCr8C_2Ftfdhs7CzXYdOD0wc/*/6AIsG_vbaWPNfHB1XQ0aNp9VKK41G4nREk7i5A5mVWYIZRVeqPRPJufgFpWiFu5H4oL1wTBM0YdBAYDLEVJQBuS1JNAuZVrx2ZnYkKlgrXwYBSzEz2GEbymKOnvn1MMMY0QHbGYKw_CfzBYFsIej0QKQopgmYywElAjGhcss_tVTetrfKPCE-2Uhj26AovDDbhw?session=0&fife",
+      "https://doc-0o-ag-mymaps.googleusercontent.com/untrusted/hostedimage/ihucu48q9m5s1hftel5u85tfdc/c0ec0at5v6uvb96i1n7u8mhn80/1652418900000/-WPmm_dsOCr8C_2Ftfdhs7CzXYdOD0wc/*/6AIsG_vb6MSDP5pVQZ1VD_BT3I-wt6qjwx8betWH11vGuqArbnVRPdTQ8iQixIIAwRV9huUvbvwOfhdYUrxlnkBK29Dt9yOn5vOZz-AZUfsC61f4cHlRoFb6BxkcJQtEqSgvFOgT7tKSoCQ_eOqs8B6zTcb-Q_n-QO9ZzXGVwORsxUmG8GsT5EawR6hG0idU6xg?session=0&fife",
+      "https://doc-0s-ag-mymaps.googleusercontent.com/untrusted/hostedimage/ihucu48q9m5s1hftel5u85tfdc/pgcigf6k4f2srk26or75rpqo10/1652418900000/-WPmm_dsOCr8C_2Ftfdhs7CzXYdOD0wc/*/6AIsG_vZoyUJ1mjEb88GQvYtngaZ5sJOHO7OyhswNPWdvC9wlf80L4Msy5Np_VPIqPlpy0qZNtzdOakQSYvj1YIH1kgG0_H8Ni2pLY5hFei04FnpDCeu1Id2wBdDde-TUTEml4tDAC_6yVgCTnoy8MUk1n1VxWAgASrdy7G71Nd_11PtcVNXQjAd4DGycabdqPg?session=0&fife",
+
+  ],
+  name: "Paliesiaus dvaro pažintinis sveikatingumo takas"
+
+},
+{
+  distance: [
+      "13 km"
+  ],
+  time: [
+      "8,5 h"
+  ],
+  coordinates: [
+      26.102146,
+      55.3289803
+  ],
+  description: "Pėsčiųjų maršrutas „Nuo Palūšės iki Strigailiškio“",
+  images: [
+
+  ],
+  name: "Pėsčiųjų maršrutas „Nuo Palūšės iki Strigailiškio“"
+
+},
+{
+  distance: [
+      "28 km"
+  ],
+  time: [
+      "10 h"
+  ],
+  coordinates: [
+      24.9569289,
+      54.7562593
+  ],
+  description: "Kairiojo Neries kranto turizmo trasa yra bene ilgiausias pažintinis takas Lietuvoje, kurio ilgis daugiau nei 25km. Žiedinės formos maršrutas veda miškais ir vaizdinga Neries pakrante, o gražiausi vaizdai atsiveria nuo Ausiutiškių regyklos. Trasa gerai pažymėta, galima eiti, važiuoti dviračiu ar automobiliu. Yra nemažai poilsiaviečių ir suoliukų poilsiui ar iškylavimui. Daigiau informacijos apie trasą tinklaraštyje: https://nesedeknamuose.lt/pazintiniai-takai/kairiojo-neries-kranto-turizmo-trasa/ https://nesedeknamuose.lt/trasa-kurioje-ispudziai-nustelbia-fizini-nuovargi/",
+  images: [
+      "https://doc-0s-ag-mymaps.googleusercontent.com/untrusted/hostedimage/ihucu48q9m5s1hftel5u85tfdc/4f2ot3jm08p1rpcksmt94a9ask/1652418900000/-WPmm_dsOCr8C_2Ftfdhs7CzXYdOD0wc/*/6AIsG_vZocmQME_HbrNrZD9-pqUypCxpfgxj4pUlrzha_tTXB0j1LaPplpgU6Vnct7vqAr9S1Z9jnbxlLOqVMELyBN4FpsJ5Su9kZhitjGX01V7rHeOsVjF3lGCMTyjqoroTxQ7RIyOBR436OFbn0N-V34rGwfSGMMjBIfU6DCFqu0j_kqM6l1urLB07wu8t1Fg?session=0&fife",
+      "https://doc-08-ag-mymaps.googleusercontent.com/untrusted/hostedimage/ihucu48q9m5s1hftel5u85tfdc/p6bf77v2cd3h7qjeulo1l9um7k/1652418900000/-WPmm_dsOCr8C_2Ftfdhs7CzXYdOD0wc/*/6AIsG_vZ7nr6V2WdlvRlSdzB_TvFD7qEljLvxdu7UiRjZO6bUFnSpCRRPejhnIxSw7uejxLDoOBbtQAJZqocXjM4_5MwX9B34r309ZI3-RhJ5v9DeqzSnln7e5Otkq5jKv3MZVButFwvXxKZlQZrVHZoODrrTjkHIlHassGYQKFUpuDVrcySPEPksFXSaV4ZINQ?session=0&fife",
+      "https://doc-10-ag-mymaps.googleusercontent.com/untrusted/hostedimage/ihucu48q9m5s1hftel5u85tfdc/ae3uq0a74ckhjnro76tokte6nc/1652418900000/-WPmm_dsOCr8C_2Ftfdhs7CzXYdOD0wc/*/6AIsG_vbb9h8jt1OQopPrgDARH4OmBJXR2Y8msX82nGU9PmnWKt0mz-8XXdMiuaqQFblR3zdWjF210GpyWDAfW2FnxwjiZLIX3_XJtMu9anhVwetVltxRbLzPCo7ZGDQJNza_52Wu1DYEiWmJSnps05XV5QZlvINnNX-0GWkYrAxgNEu5n9C60fj2hjOK73nN6g?session=0&fife",
+      "https://doc-0o-ag-mymaps.googleusercontent.com/untrusted/hostedimage/ihucu48q9m5s1hftel5u85tfdc/sc5a4b1e6dlm5vvoq6m4fdit2s/1652418900000/-WPmm_dsOCr8C_2Ftfdhs7CzXYdOD0wc/*/6AIsG_vZmibFp34f3j7dTrGknv5vdejYNRhEXCxMmDsVLWgmgzJtnMJgltpAIqf1sslpVPalGfs7ra9EY-0FPvNFfguexfV1mxek1-a5BwAwgpHm0y7GXIhqggWeErUVL6jJPPP_4_WYRrN-QAXGsyb3zFHIYNgYxB-74f9ZrGAvHKvvBQ37bvfcQ9F0wmdMIKw?session=0&fife",
+
+  ],
+  name: "Kairiojo Neries kranto turizmo trasa"
+
+},
+{
+  distance: [
+      "5,4 km"
+  ],
+  time: [
+      "1,2 h"
+  ],
+  coordinates: [
+      24.044432,
+      54.8627009
+  ],
+  description: "Laumėnų pažintinis takas",
+  images: [
+
+  ],
+  name: "Laumėnų pažintinis takas"
+
+},
+{
+  distance: [
+      "7,7 km"
+  ],
+  time: [
+      "2 h"
+  ],
+  coordinates: [
+      23.0483617,
+      55.8261412
+  ],
+  description: "'Šalia dvaro' didysis takas",
+  images: [
+
+  ],
+  name: "'Šalia dvaro' didysis takas"
+
+},
+{
+  distance: [
+      "6 km"
+  ],
+  time: [
+      "1,2 h"
+  ],
+  coordinates: [
+      23.0481819,
+      55.8262023
+  ],
+  description: "'Šalia dvaro' mažasis takas",
+  images: [
+
+  ],
+  name: "'Šalia dvaro' mažasis takas"
+
+},
+{
+  distance: [
+      "3,1 km"
+  ],
+  time: [
+      "1 h"
+  ],
+  coordinates: [
+      23.1038062,
+      55.7977502
+  ],
+  description: "Pageluvio ežeryno mažasis takas",
+  images: [
+
+  ],
+  name: "Pageluvio ežeryno mažasis takas"
+
+},
+{
+  distance: [
+      "2,6 km"
+  ],
+  time: [
+      "0,5 h"
+  ],
+  coordinates: [
+      23.1270905,
+      55.0962736
+  ],
+  description: "Raudonės pažintinis takas",
+  images: [
+
+  ],
+  name: "Raudonės pažintinis takas"
+
+},
+{
+  distance: [
+      "19,8 km"
+  ],
+  time: [
+      "5 h"
+  ],
+  coordinates: [
+      23.0483992,
+      55.8263342
+  ],
+  description: "Kurtuvos takas",
+  images: [
+
+  ],
+  name: "Kurtuvos takas"
+
+},
+{
+  distance: [
+      "1,3 km"
+  ],
+  time: [
+      "1 h"
+  ],
+  coordinates: [
+      22.3096087,
+      55.1886768
+  ],
+  description: "Šilinės girininkijos pėsčiųjų takas",
+  images: [
+
+  ],
+  name: "Šilinės girininkijos pėsčiųjų takas"
+
+},
+{
+  distance: [
+      "0,2 km"
+  ],
+  time: [
+      "0,3 h"
+  ],
+  coordinates: [
+      22.3674286,
+      56.3880971
+  ],
+  description: "Buknaičių basų kojų takas",
+  images: [
+
+  ],
+  name: "Buknaičių basų kojų takas"
+
+},
+{
+  distance: [
+      "9 km"
+  ],
+  time: [
+      "3 h"
+  ],
+  coordinates: [
+      22.8199599,
+      54.4809933
+  ],
+  description: "Pėsčiųjų takas 'Keliaukim Protėvių Takais'",
+  images: [
+
+  ],
+  name: "Pėsčiųjų takas 'Keliaukim Protėvių Takais'"
+
+},
+{
+  distance: [
+      "0,6 km"
+  ],
+  time: [
+      "0,5 h"
+  ],
+  coordinates: [
+      24.398544,
+      54.06093
+  ],
+  description: "Girinio pažintinis takas vingiuoja Marcinkonių apylinkėmis iki Duobupio užtvankos, prie kurios anksčiau stovėjo malūnas. Apsukęs ratą takas grįžta atgal prie Dzūkijos nacionalinio parko lankytojų centro. Žiedinio maršruto ilgis 3,8 kilometro. Take stovi vienas informacinis stendas prie užtvankos. Plačiau apie taką skaitykite tinklaraštyje: https://nesedeknamuose.lt/pazintiniai-takai/girinio-pazintinis-takas-marcinkonyse/ http://nesedeknamuose.lt/sveciuose-pas-buzuka/",
+  images: [
+      "https://doc-10-ag-mymaps.googleusercontent.com/untrusted/hostedimage/ihucu48q9m5s1hftel5u85tfdc/9ent0uh1k9vt95sqd9m61lprvs/1652418900000/-WPmm_dsOCr8C_2Ftfdhs7CzXYdOD0wc/*/6AIsG_vYullqJoZJABfE8YtgRQaoH9LGGnFHTS4SWTWUSc96PZn002o4NL_9UtOCFwfCQ8jgortEer2yTvVeI6WfZ2zsIFF2cO3j0bx1PKyCwj9up-4EAKy2T0nlCzn5H5en53raDfXJi3Ed7cohlf38jC2JwTarlaYxwR7iDw1IPSoniWWoJasJ0JahKgkr3_A?session=0&fife",
+      "https://doc-10-ag-mymaps.googleusercontent.com/untrusted/hostedimage/ihucu48q9m5s1hftel5u85tfdc/e0l3guv7b8e2ki4hokm9gnlnf8/1652418900000/-WPmm_dsOCr8C_2Ftfdhs7CzXYdOD0wc/*/6AIsG_vbGfJENz--jAWkM77gQHioP7e-GfD34AfR_qWB4IsLymhPcEQecuxVTiCjmvHqIc_xFbFu68N1Hx9LxrtAUJq3DDYZIuX5i0Ux5bRMFNURzYEowrF-M3_UNWLNeXP7QdEDdl96gg8mAplJFQZ8j-Gjzs4S5khKtkEtmIZno53Fm_rE1K3K3xkrdvl697g?session=0&fife",
+      "https://doc-0g-ag-mymaps.googleusercontent.com/untrusted/hostedimage/ihucu48q9m5s1hftel5u85tfdc/4e6i97ttfd6309kj82ogvb1u98/1652418900000/-WPmm_dsOCr8C_2Ftfdhs7CzXYdOD0wc/*/6AIsG_vZTGMpWwAu6nP4MRfvdRWMuZltpqVe2ORDmVLJm88jRB2v0nPLjI1ZSWqXjWM7UjgFCpSBzdwqf2pwcsAt-CZu6iYYg-OFRXNw11lFGNxgmR1d1YYfyS_yOabqLbwkLhWrxHl3nFFntYD-KbuRZrcxNMO0i2i1Wq8THwMpXSmCI9woyURIDj-Eh8zbqtQ?session=0&fife",
+      "https://doc-04-ag-mymaps.googleusercontent.com/untrusted/hostedimage/ihucu48q9m5s1hftel5u85tfdc/ooqecckmlf6ibqaj93ramopk3s/1652418900000/-WPmm_dsOCr8C_2Ftfdhs7CzXYdOD0wc/*/6AIsG_vadbydtv1cOCwMnR8JAItDInW9xp1elBoso9_Ia_aPlVN3aTUqVa4IGq1fdpaX2wmwI0R-TDDHhftsWzjZLjE_P56CZhVQjihPKTqYnpA2GQcl9YEZW2t6-ifYMJWUjPZ5HTGuk9e9XxtN-jQDhT_uoOyfZK3FVDZGZC1qyeaXCmX_osRn6naORwkBcQA?session=0&fife",
+
+  ],
+  name: "Girinio pažintinis takas"
+
+},
+{
+  distance: [
+      "10 km"
+  ],
+  time: [
+      "3 h"
+  ],
+  coordinates: [
+      25.3008978,
+      54.7517428
+  ],
+  description: "Verkių trasa yra 10 kilometrų ilgio žiedinės formos maršrutas Verkių regioniniame parke. Jis prasideda netoli dvaro rūmų ir nuvedęs iki Staviškių piliakalnio grįžta atgal. Maršrutas veda natūraliai pramintais miškų ir pievų takais bei keliukais, o kai kur ir šaligatviu. Yra įkalnių ir nuokalnių. Plačiau apie taką skaitykite tinklaraštyje: https://nesedeknamuose.lt/pazintiniai-takai/verkiu-trasa/",
+  images: [
+      "https://doc-0k-ag-mymaps.googleusercontent.com/untrusted/hostedimage/ihucu48q9m5s1hftel5u85tfdc/hvqbbpa8g3ilav3ff199odqs5c/1652418900000/-WPmm_dsOCr8C_2Ftfdhs7CzXYdOD0wc/*/6AIsG_vZFKlyN3YuPk10bHBSH03KzBjqDLUfjDJE4Taj1xD4pooz-cCb1WQFd7OAQuyCz0XIYLzK9ySR2DYJVQkFq1UsuW-yIQb2n8tSm1zKIx2gn_wejbjJ96N3NvtSyPRauTctRgk5-eqRVp1jndwty3uTI-G1HexBo6rCx79l8QVk8JbGP5s0iodWFO4dvZQ?session=0&fife",
+      "https://doc-0o-ag-mymaps.googleusercontent.com/untrusted/hostedimage/ihucu48q9m5s1hftel5u85tfdc/lk74pf733g10lh5fh434c1k2q8/1652418900000/-WPmm_dsOCr8C_2Ftfdhs7CzXYdOD0wc/*/6AIsG_vbuvtz5hBRMjorXrNsMQ0sfte7kKdwUFTDE9wQDUD109jQWW1CSV8sa7Bh3uXp54qd0mLqmvgYVsKT_cxhm58vXh9rkGy0kksaUvFo5_9OlEp5kVp4f1eHS61ztylSPRtbbhpRqf12as7DQBxEod_cPOAUq-U0s98maDAjCIaWg6S-X_MasRKFvKDF15w?session=0&fife",
+      "https://doc-08-ag-mymaps.googleusercontent.com/untrusted/hostedimage/ihucu48q9m5s1hftel5u85tfdc/qq76s22ue61qj8khts1669p9b4/1652418900000/-WPmm_dsOCr8C_2Ftfdhs7CzXYdOD0wc/*/6AIsG_vZTA2ftRPDx2WMu8U2Z16WQ197ERvZ3FdABARzSZscJRAIffAHmxwPUliyRa4hZRod4RcMcEiPMSfm3FYTPS0jwYs8wWBanBpGQXm2h1RQF0nMlxC5Dg71tzHsKjHNATnJTUITNmegk0Wpcy-V1_MC1onselFE4gPtuFkv0QIuaxb7cLPogza8LJ8k6sw?session=0&fife",
+      "https://doc-0o-ag-mymaps.googleusercontent.com/untrusted/hostedimage/ihucu48q9m5s1hftel5u85tfdc/t8usmetq9t6525432h5f7bp5uc/1652418900000/-WPmm_dsOCr8C_2Ftfdhs7CzXYdOD0wc/*/6AIsG_vYWFPGrlj3vGqBY0B2rMoTAk6NjWu_LERcvwEp1_s3wxL9fPAoHvHWsVtotBKv3cnatGEW6GcAbhejfgtm9Ok86ZTA3xaubs63iPO65PENEg24nc-rU6bc-dN_HY4rSwvYEVJ5fhPSP3zO_Vv0MIzmStBRgz7fsmqQLJkO6wABRwfiPAfLg8Q16liU-nw?session=0&fife",
+
+  ],
+  name: "Verkių trasa",
+},
 ];
